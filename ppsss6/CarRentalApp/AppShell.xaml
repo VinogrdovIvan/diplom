@@ -1,0 +1,23 @@
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:CarRentalApp.Views"
+       x:Class="CarRentalApp.AppShell"
+       Title="CarRentalApp"
+       FlyoutBehavior="Disabled"
+       BackgroundColor="{StaticResource PrimaryDark}">
+
+    <Shell.Resources>
+        <Style TargetType="NavigationPage">
+            <Setter Property="BarBackgroundColor" Value="{StaticResource SecondaryDark}" />
+            <Setter Property="BarTextColor" Value="{StaticResource TextColor}" />
+        </Style>
+    </Shell.Resources>
+
+    <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />
+    <ShellContent Route="HomePage" ContentTemplate="{DataTemplate local:HomePage}" />
+    <ShellContent Route="OrdersPage" ContentTemplate="{DataTemplate local:OrdersPage}" />
+    <ShellContent Route="ProfilePage" ContentTemplate="{DataTemplate local:ProfilePage}" />
+    <ShellContent Route="EditProfilePage" ContentTemplate="{DataTemplate local:EditProfilePage}" />
+    <ShellContent Route="CalculateCostPage" ContentTemplate="{DataTemplate local:CalculateCostPage}" />
+    <ShellContent Route="RegisterPage" ContentTemplate="{DataTemplate local:RegisterPage}" />
+</Shell>

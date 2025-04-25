@@ -1,0 +1,69 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CarRentalApp.Views.RegisterPage"
+             Title="Регистрация"
+             BackgroundColor="{StaticResource PrimaryDark}">
+
+    <ScrollView>
+        <StackLayout Padding="20" VerticalOptions="Center">
+            <Label Text="Регистрация" 
+                   FontSize="24" 
+                   TextColor="{StaticResource TextColor}" 
+                   HorizontalOptions="Center" 
+                   Margin="0, 0, 0, 20" />
+
+            <Frame BackgroundColor="{StaticResource SecondaryDark}" 
+                   CornerRadius="15" 
+                   Padding="20">
+                <StackLayout>
+                    <Entry Placeholder="Имя" 
+                           Text="{Binding RegisterRequest.FirstName}" 
+                           TextColor="{StaticResource TextColor}"
+                           PlaceholderColor="{StaticResource LightGray}" />
+
+                    <Entry Placeholder="Фамилия" 
+                           Text="{Binding RegisterRequest.LastName}" 
+                           TextColor="{StaticResource TextColor}"
+                           PlaceholderColor="{StaticResource LightGray}"
+                           Margin="0, 10, 0, 0" />
+
+                    <Entry Placeholder="Email" 
+                           Text="{Binding RegisterRequest.Email}" 
+                           Keyboard="Email" 
+                           TextColor="{StaticResource TextColor}"
+                           PlaceholderColor="{StaticResource LightGray}"
+                           Margin="0, 10, 0, 0" />
+
+                    <Entry Placeholder="Телефон" 
+                           Text="{Binding RegisterRequest.Phone}" 
+                           Keyboard="Telephone" 
+                           TextColor="{StaticResource TextColor}"
+                           PlaceholderColor="{StaticResource LightGray}"
+                           Margin="0, 10, 0, 0" />
+
+                    <Entry Placeholder="Пароль" 
+                           Text="{Binding RegisterRequest.Password}" 
+                           IsPassword="True" 
+                           TextColor="{StaticResource TextColor}"
+                           PlaceholderColor="{StaticResource LightGray}"
+                           Margin="0, 10, 0, 20" />
+
+                    <Button Text="Зарегистрироваться" 
+                            Clicked="OnRegisterClicked" 
+                            BackgroundColor="{StaticResource Accent}" 
+                            TextColor="{StaticResource TextColor}" 
+                            CornerRadius="10" />
+
+                    <Button Text="Уже есть аккаунт? Войти" 
+                            Clicked="OnNavigateToLoginClicked" 
+                            BackgroundColor="Transparent" 
+                            TextColor="{StaticResource TextColor}" 
+                            BorderColor="{StaticResource Accent}" 
+                            BorderWidth="1" 
+                            CornerRadius="10" 
+                            Margin="0, 10, 0, 0" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,67 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:CarRentalApp.ViewModels"
+             x:Class="CarRentalApp.Views.EditProfilePage"
+             x:DataType="vm:EditProfileViewModel"
+             Title="Редактирование профиля"
+             BackgroundColor="{StaticResource PrimaryDark}">
+
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Frame BackgroundColor="{StaticResource SecondaryDark}"
+                   CornerRadius="15"
+                   Padding="20">
+                <StackLayout>
+                    <Label Text="Редактирование профиля"
+                           FontSize="24"
+                           TextColor="{StaticResource TextColor}"
+                           HorizontalOptions="Center"
+                           Margin="0,0,0,20"/>
+
+                    <Label Text="Имя" TextColor="{StaticResource TextColor}"/>
+                    <Entry Text="{Binding Request.FirstName}"
+                           TextColor="{StaticResource TextColor}"
+                           PlaceholderColor="{StaticResource LightGray}"/>
+
+                    <Label Text="Фамилия" 
+                           TextColor="{StaticResource TextColor}"
+                           Margin="0,10,0,0"/>
+                    <Entry Text="{Binding Request.LastName}"
+                           TextColor="{StaticResource TextColor}"
+                           PlaceholderColor="{StaticResource LightGray}"/>
+
+                    <Label Text="Телефон" 
+                           TextColor="{StaticResource TextColor}"
+                           Margin="0,10,0,0"/>
+                    <Entry Keyboard="Telephone"
+                           Text="{Binding Request.Phone}"
+                           TextColor="{StaticResource TextColor}"
+                           PlaceholderColor="{StaticResource LightGray}"/>
+
+                    <Label Text="Новый пароль (оставьте пустым, если не хотите менять)"
+                           TextColor="{StaticResource TextColor}"
+                           Margin="0,10,0,0"/>
+                    <Entry IsPassword="True"
+                           Text="{Binding Request.NewPassword}"
+                           TextColor="{StaticResource TextColor}"
+                           PlaceholderColor="{StaticResource LightGray}"/>
+
+                    <Label Text="Текущий пароль (обязательно для изменения пароля)"
+                           TextColor="{StaticResource TextColor}"
+                           Margin="0,10,0,0"/>
+                    <Entry IsPassword="True"
+                           Text="{Binding Request.CurrentPassword}"
+                           TextColor="{StaticResource TextColor}"
+                           PlaceholderColor="{StaticResource LightGray}"/>
+
+                    <Button Text="Сохранить изменения"
+                            Clicked="OnSaveProfileClicked"
+                            BackgroundColor="{StaticResource Accent}"
+                            TextColor="{StaticResource TextColor}"
+                            CornerRadius="10"
+                            Margin="0,20,0,0"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

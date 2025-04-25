@@ -1,0 +1,55 @@
+﻿<Window x:Class="AdminPanel.Views.EditCarWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Редактировать автомобиль" 
+        Height="580" 
+        Width="400"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner">
+
+    <Border Background="{StaticResource AccentBrush}"
+            CornerRadius="10"
+            Padding="20"
+            Margin="10">
+        <StackPanel>
+            <TextBlock Text="Редактировать автомобиль" 
+                       FontSize="18"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,20"/>
+
+            <TextBlock Text="Марка"/>
+            <TextBox Text="{Binding Car.Brand}"/>
+
+            <TextBlock Text="Модель"/>
+            <TextBox Text="{Binding Car.Model}"/>
+
+            <TextBlock Text="Год выпуска"/>
+            <TextBox Text="{Binding Car.Year}"/>
+
+            <TextBlock Text="Цвет"/>
+            <TextBox Text="{Binding Car.Color}"/>
+
+            <TextBlock Text="Номерной знак"/>
+            <TextBox Text="{Binding Car.LicensePlate}"/>
+
+            <TextBlock Text="Стоимость аренды (в час)"/>
+            <TextBox Text="{Binding Car.HourlyRate}"/>
+
+            <CheckBox IsChecked="{Binding Car.IsAvailable}" 
+                      Content="Доступен"
+                      Margin="0,10,0,20"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Сохранить" 
+                        Command="{Binding SaveCarCommand}"
+                        Width="120"/>
+
+                <Button Content="Отмена" 
+                        Command="{Binding CancelCommand}"
+                        Width="120"
+                        Margin="10,0,0,0"/>
+            </StackPanel>
+        </StackPanel>
+    </Border>
+</Window>

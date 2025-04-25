@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "WebApplication2.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\CarRentalApp\\CarRentalApp.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

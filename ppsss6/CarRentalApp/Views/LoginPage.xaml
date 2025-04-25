@@ -1,0 +1,30 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CarRentalApp.Views.LoginPage"
+             Title="Вход в систему"
+             BackgroundColor="{StaticResource PrimaryDark}">
+
+    <StackLayout Padding="20" VerticalOptions="Center">
+
+
+        <Frame BackgroundColor="{StaticResource SecondaryDark}" CornerRadius="15" Padding="20">
+            
+            <StackLayout>
+                <Label Text="Вход в систему" FontSize="24" TextColor="{StaticResource TextColor}" 
+                    HorizontalOptions="Center" Margin="0, 0, 0, 20" />
+                <Entry Placeholder="Email" Text="{Binding LoginRequest.Email}" 
+                       TextColor="{StaticResource TextColor}" PlaceholderColor="{StaticResource LightGray}" />
+                <Entry Placeholder="Пароль" Text="{Binding LoginRequest.Password}" IsPassword="True" 
+                       TextColor="{StaticResource TextColor}" PlaceholderColor="{StaticResource LightGray}" 
+                       Margin="0, 10, 0, 20" />
+                <Button Text="Войти" Clicked="OnLoginClicked" 
+                        BackgroundColor="{StaticResource Accent}" TextColor="{StaticResource TextColor}" 
+                        CornerRadius="10" />
+                <Button Text="Зарегистрироваться" Clicked="OnRegisterClicked" 
+                        BackgroundColor="Transparent" TextColor="{StaticResource TextColor}" 
+                        BorderColor="{StaticResource Accent}" BorderWidth="1" CornerRadius="10" 
+                        Margin="0, 10, 0, 0" />
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>
