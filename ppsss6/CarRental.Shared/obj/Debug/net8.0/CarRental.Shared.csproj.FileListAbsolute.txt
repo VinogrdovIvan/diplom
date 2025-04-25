@@ -232,3 +232,27 @@ C:\Users\aamon\Desktop\vkr2\ppsss6\CarRental.Shared\obj\Debug\net8.0\CarRental.S
 C:\Users\aamon\Desktop\vkr2\ppsss6\CarRental.Shared\obj\Debug\net8.0\refint\CarRental.Shared.dll
 C:\Users\aamon\Desktop\vkr2\ppsss6\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.pdb
 C:\Users\aamon\Desktop\vkr2\ppsss6\CarRental.Shared\obj\Debug\net8.0\ref\CarRental.Shared.dll
+C:\Users\ilyao\OneDrive\Рабочий стол\vkr\ppsss6\CarRental.Shared\bin\Debug\net8.0\CarRental.Shared.deps.json
+C:\Users\ilyao\OneDrive\Рабочий стол\vkr\ppsss6\CarRental.Shared\bin\Debug\net8.0\CarRental.Shared.dll
+C:\Users\ilyao\OneDrive\Рабочий стол\vkr\ppsss6\CarRental.Shared\bin\Debug\net8.0\CarRental.Shared.pdb
+C:\Users\ilyao\OneDrive\Рабочий стол\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilyao\OneDrive\Рабочий стол\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.AssemblyInfoInputs.cache
+C:\Users\ilyao\OneDrive\Рабочий стол\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.AssemblyInfo.cs
+C:\Users\ilyao\OneDrive\Рабочий стол\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.csproj.CoreCompileInputs.cache
+C:\Users\ilyao\OneDrive\Рабочий стол\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.sourcelink.json
+C:\Users\ilyao\OneDrive\Рабочий стол\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.dll
+C:\Users\ilyao\OneDrive\Рабочий стол\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\refint\CarRental.Shared.dll
+C:\Users\ilyao\OneDrive\Рабочий стол\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.pdb
+C:\Users\ilyao\OneDrive\Рабочий стол\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\ref\CarRental.Shared.dll
+C:\vkr\ppsss6\CarRental.Shared\bin\Debug\net8.0\CarRental.Shared.deps.json
+C:\vkr\ppsss6\CarRental.Shared\bin\Debug\net8.0\CarRental.Shared.dll
+C:\vkr\ppsss6\CarRental.Shared\bin\Debug\net8.0\CarRental.Shared.pdb
+C:\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.AssemblyInfoInputs.cache
+C:\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.AssemblyInfo.cs
+C:\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.csproj.CoreCompileInputs.cache
+C:\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.sourcelink.json
+C:\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.dll
+C:\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\refint\CarRental.Shared.dll
+C:\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.pdb
+C:\vkr\ppsss6\CarRental.Shared\obj\Debug\net8.0\ref\CarRental.Shared.dll

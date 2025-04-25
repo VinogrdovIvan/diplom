@@ -24,19 +24,18 @@ namespace CarRentalApp.Services
                 var client = _httpClientFactory.CreateClient("Backend");
                 var response = await client.PostAsJsonAsync("api/Auth/login", request);
 
-                if (response.IsSuccessStatusCode)
+                if (!response.IsSuccessStatusCode)
                 {
-                    var tokenResponse = await response.Content.ReadFromJsonAsync<TokenResponse>();
-
-                    var userResponse = await GetUserProfileAsync();
-
-                    await SecureStorage.SetAsync("user_id", userResponse.UserId.ToString());
-
-                    return tokenResponse;
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    throw new Exception($"Ошибка при входе: {response.StatusCode}, {errorContent}");
                 }
 
-                var errorContent = await response.Content.ReadAsStringAsync();
-                throw new Exception($"Ошибка при входе: {response.StatusCode}, {errorContent}");
+                var tokenResponse = await response.Content.ReadFromJsonAsync<TokenResponse>();
+
+                await SecureStorage.SetAsync("access_token", tokenResponse.AccessToken);
+                await SecureStorage.SetAsync("refresh_token", tokenResponse.RefreshToken);
+
+                return tokenResponse;
             }
             catch (Exception ex)
             {
@@ -68,16 +67,8 @@ namespace CarRentalApp.Services
         // Получение профиля пользователя
         public async Task<UserResponse> GetUserProfileAsync()
         {
-            var accessToken = await SecureStorage.GetAsync("access_token");
-            if (string.IsNullOrEmpty(accessToken))
-            {
-                throw new Exception("Пользователь не авторизован");
-            }
-
             var client = _httpClientFactory.CreateClient("Backend");
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
             var response = await client.GetAsync("api/users/me");
-            response.EnsureSuccessStatusCode();
             return await response.Content.ReadFromJsonAsync<UserResponse>();
         }
 

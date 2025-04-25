@@ -36,12 +36,21 @@ namespace CarRentalApp.ViewModels
                 }
 
                 var tokenResponse = await _authService.LoginAsync(LoginRequest);
-                if (tokenResponse != null)
+                if (tokenResponse == null)
                 {
-                    await SecureStorage.SetAsync("access_token", tokenResponse.AccessToken);
-                    await SecureStorage.SetAsync("refresh_token", tokenResponse.RefreshToken);
-                    await Shell.Current.GoToAsync("//HomePage");
+                    await Application.Current.MainPage.DisplayAlert("Ошибка", "неправильный логин или пароль!", "OK");
+                    return;
                 }
+
+                var userResponse = await _authService.GetUserProfileAsync();
+                if (userResponse == null)
+                {
+                    await Application.Current.MainPage.DisplayAlert("Ошибка", "Произошла ошибка при получение профиля пользователя!", "OK");
+                    return;
+                }
+
+                await Shell.Current.GoToAsync("//HomePage");
+
             }
             catch (Exception ex)
             {

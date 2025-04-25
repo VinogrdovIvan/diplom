@@ -12,73 +12,73 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CarRentalApp
-build_property.ProjectDir = C:\Users\aamon\Desktop\vkr2\ppsss6\CarRentalApp\
+build_property.ProjectDir = C:\vkr\ppsss6\CarRentalApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/aamon/Desktop/vkr2/ppsss6/CarRentalApp/App.xaml]
+[C:/vkr/ppsss6/CarRentalApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarRentalApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/aamon/Desktop/vkr2/ppsss6/CarRentalApp/AppShell.xaml]
+[C:/vkr/ppsss6/CarRentalApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarRentalApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/aamon/Desktop/vkr2/ppsss6/CarRentalApp/Resources/Styles/Colors.xaml]
+[C:/vkr/ppsss6/CarRentalApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarRentalApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/aamon/Desktop/vkr2/ppsss6/CarRentalApp/Resources/Styles/Styles.xaml]
+[C:/vkr/ppsss6/CarRentalApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarRentalApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/aamon/Desktop/vkr2/ppsss6/CarRentalApp/Views/CalculateCostPage.xaml]
+[C:/vkr/ppsss6/CarRentalApp/Views/CalculateCostPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarRentalApp.Views.CalculateCostPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CalculateCostPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CalculateCostPage.xaml
 
-[C:/Users/aamon/Desktop/vkr2/ppsss6/CarRentalApp/Views/EditProfilePage.xaml]
+[C:/vkr/ppsss6/CarRentalApp/Views/EditProfilePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarRentalApp.Views.EditProfilePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\EditProfilePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\EditProfilePage.xaml
 
-[C:/Users/aamon/Desktop/vkr2/ppsss6/CarRentalApp/Views/HomePage.xaml]
+[C:/vkr/ppsss6/CarRentalApp/Views/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarRentalApp.Views.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
 
-[C:/Users/aamon/Desktop/vkr2/ppsss6/CarRentalApp/Views/LoginPage.xaml]
+[C:/vkr/ppsss6/CarRentalApp/Views/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarRentalApp.Views.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
 
-[C:/Users/aamon/Desktop/vkr2/ppsss6/CarRentalApp/Views/OrdersPage.xaml]
+[C:/vkr/ppsss6/CarRentalApp/Views/OrdersPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarRentalApp.Views.OrdersPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\OrdersPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\OrdersPage.xaml
 
-[C:/Users/aamon/Desktop/vkr2/ppsss6/CarRentalApp/Views/ProfilePage.xaml]
+[C:/vkr/ppsss6/CarRentalApp/Views/ProfilePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarRentalApp.Views.ProfilePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ProfilePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ProfilePage.xaml
 
-[C:/Users/aamon/Desktop/vkr2/ppsss6/CarRentalApp/Views/RegisterPage.xaml]
+[C:/vkr/ppsss6/CarRentalApp/Views/RegisterPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CarRentalApp.Views.RegisterPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\RegisterPage.xaml

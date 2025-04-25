@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aamon\\Desktop\\vkr2\\ppsss6\\AdminPanel\\AdminPanel.csproj": {}
+    "C:\\vkr\\ppsss6\\AdminPanel\\AdminPanel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aamon\\Desktop\\vkr2\\ppsss6\\AdminPanel\\AdminPanel.csproj": {
+    "C:\\vkr\\ppsss6\\AdminPanel\\AdminPanel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aamon\\Desktop\\vkr2\\ppsss6\\AdminPanel\\AdminPanel.csproj",
+        "projectUniqueName": "C:\\vkr\\ppsss6\\AdminPanel\\AdminPanel.csproj",
         "projectName": "AdminPanel",
-        "projectPath": "C:\\Users\\aamon\\Desktop\\vkr2\\ppsss6\\AdminPanel\\AdminPanel.csproj",
-        "packagesPath": "C:\\Users\\aamon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aamon\\Desktop\\vkr2\\ppsss6\\AdminPanel\\obj\\",
+        "projectPath": "C:\\vkr\\ppsss6\\AdminPanel\\AdminPanel.csproj",
+        "packagesPath": "C:\\Users\\ilyao\\.nuget\\packages\\",
+        "outputPath": "C:\\vkr\\ppsss6\\AdminPanel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aamon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ilyao\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\aamon\\Desktop\\vkr2\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj": {
-                "projectPath": "C:\\Users\\aamon\\Desktop\\vkr2\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj"
+              "C:\\vkr\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj": {
+                "projectPath": "C:\\vkr\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj"
               }
             }
           }
@@ -83,24 +83,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\aamon\\Desktop\\vkr2\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj": {
+    "C:\\vkr\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aamon\\Desktop\\vkr2\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj",
+        "projectUniqueName": "C:\\vkr\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj",
         "projectName": "CarRental.Shared",
-        "projectPath": "C:\\Users\\aamon\\Desktop\\vkr2\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj",
-        "packagesPath": "C:\\Users\\aamon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aamon\\Desktop\\vkr2\\ppsss6\\CarRental.Shared\\obj\\",
+        "projectPath": "C:\\vkr\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj",
+        "packagesPath": "C:\\Users\\ilyao\\.nuget\\packages\\",
+        "outputPath": "C:\\vkr\\ppsss6\\CarRental.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aamon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ilyao\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -149,7 +149,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

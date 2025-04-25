@@ -30,7 +30,7 @@ namespace WebApplication2.DbContexts
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySql("server=localhost;database=testdb1;user=root;password=123456789",
+                optionsBuilder.UseMySql("server=localhost;database=testdb1;user=root;password=12032003",
                     Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.40-mysql"));
             }
         }
