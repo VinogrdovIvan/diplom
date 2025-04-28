@@ -70,7 +70,7 @@ namespace CarRentalApp.ViewModels
         {
             _carService = carService;
             _orderService = orderService;
-            ShowBookButton = false; // Изначально кнопка скрыта
+            ShowBookButton = false; 
         }
 
         public async Task CalculateCostAsync()
@@ -98,7 +98,7 @@ namespace CarRentalApp.ViewModels
 
                 var response = await _carService.CalculateCostAsync(request);
                 TotalCost = response.TotalCost;
-                ShowBookButton = true; // Показываем кнопку после успешного расчета
+                ShowBookButton = true; 
 
                 await Application.Current.MainPage.DisplayAlert("Успех", $"Стоимость аренды: {TotalCost} ₽", "OK");
             }
@@ -119,9 +119,10 @@ namespace CarRentalApp.ViewModels
             {
                 IsBusy = true;
 
-                // Проверяем авторизацию
                 var userId = await SecureStorage.GetAsync("user_id");
-                if (string.IsNullOrEmpty(userId))
+                var accessToken = await SecureStorage.GetAsync("access_token");
+
+                if (string.IsNullOrEmpty(userId) || string.IsNullOrEmpty(accessToken))
                 {
                     await Shell.Current.DisplayAlert("Ошибка", "Требуется авторизация", "OK");
                     await Shell.Current.GoToAsync("//LoginPage");

@@ -19,7 +19,6 @@ namespace CarRentalApp.Views
         {
             base.OnAppearing();
 
-            // ќбновл€ем данные при каждом по€влении страницы
             if (BindingContext is HomeViewModel viewModel)
             {
                 viewModel.LoadCarsCommand.Execute(null);

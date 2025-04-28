@@ -35,6 +35,9 @@ namespace CarRentalApp.Services
                 await SecureStorage.SetAsync("access_token", tokenResponse.AccessToken);
                 await SecureStorage.SetAsync("refresh_token", tokenResponse.RefreshToken);
 
+                var userResponse = await GetUserProfileAsync();
+                await SecureStorage.SetAsync("user_id", userResponse.UserId.ToString());
+
                 return tokenResponse;
             }
             catch (Exception ex)

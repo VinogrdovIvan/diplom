@@ -22,23 +22,25 @@ namespace CarRentalApp.Services
             try
             {
                 var client = _httpClientFactory.CreateClient("Backend");
+
+                var accessToken = await SecureStorage.GetAsync("access_token");
+                Console.WriteLine($"Access Token: {accessToken}");
+
                 var response = await client.PostAsJsonAsync("api/Orders", request);
 
                 if (!response.IsSuccessStatusCode)
                 {
                     var errorContent = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine($"Error response: {errorContent}");
                     throw new Exception($"Ошибка сервера: {response.StatusCode}, {errorContent}");
                 }
 
                 return await response.Content.ReadFromJsonAsync<OrderResponse>();
             }
-            catch (HttpRequestException ex)
-            {
-                throw new Exception($"Ошибка сети: {ex.Message}");
-            }
             catch (Exception ex)
             {
-                throw new Exception($"Неизвестная ошибка: {ex.Message}");
+                Console.WriteLine($"Exception in CreateOrderAsync: {ex}");
+                throw;
             }
         }
 

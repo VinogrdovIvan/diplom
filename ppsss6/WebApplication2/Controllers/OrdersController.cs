@@ -40,7 +40,6 @@ namespace WebApplication2.Controllers
                 _logger.LogInformation("Создание заказа для пользователя {UserId}, автомобиль {CarId}",
                     request.UserId, request.CarId);
 
-                // Проверка доступности автомобиля
                 var isCarAvailable = await IsCarAvailableAsync(request.CarId, request.StartDate, request.EndDate);
                 if (!isCarAvailable)
                 {
@@ -61,7 +60,6 @@ namespace WebApplication2.Controllers
                 await _orderRepository.AddAsync(order);
                 _logger.LogInformation("Заказ успешно создан с ID {OrderId}", order.OrderId);
 
-                // Загружаем данные об автомобиле для ответа
                 var car = await _context.Cars.FindAsync(order.CarId);
 
                 return Ok(new OrderResponse
@@ -153,7 +151,6 @@ namespace WebApplication2.Controllers
                     return NotFound(new { Message = "Заказ не найден" });
                 }
 
-                // Проверяем, что до начала заказа более 24 часов
                 if (order.StartDate <= DateTime.Now.AddHours(24))
                 {
                     return BadRequest(new

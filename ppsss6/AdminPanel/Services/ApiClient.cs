@@ -18,10 +18,9 @@ namespace AdminPanel.Services
         {
             _httpClient = new HttpClient();
             _httpClient.Timeout = TimeSpan.FromSeconds(30);
-            _baseUrl = baseUrl.TrimEnd('/'); // Удаляем слэш в конце, если есть
+            _baseUrl = baseUrl.TrimEnd('/');
         }
 
-        // Установка JWT-токена
         public void SetToken(string token)
         {
             if (!string.IsNullOrEmpty(token))
@@ -35,28 +34,23 @@ namespace AdminPanel.Services
             }
         }
 
-        // GET-запрос
+        private void EnsureAuthenticated()
+        {
+            if (string.IsNullOrEmpty(App.Token))
+            {
+                throw new UnauthorizedAccessException("Требуется авторизация. Пожалуйста, войдите снова.");
+            }
+        }
+
         public async Task<T> GetAsync<T>(string endpoint)
         {
             try
             {
-                if (string.IsNullOrEmpty(App.Token))
-                {
-                    throw new Exception("Требуется авторизация. Пожалуйста, войдите снова.");
-                }
-
-                _httpClient.DefaultRequestHeaders.Authorization =
-                    new AuthenticationHeaderValue("Bearer", App.Token); 
-
-                var url = $"{_baseUrl}{endpoint}";
+                EnsureAuthenticated();
+                var url = $"{_baseUrl}/api/{endpoint.TrimStart('/')}";
                 var response = await _httpClient.GetAsync(url);
 
-                if (response.StatusCode == HttpStatusCode.Unauthorized)
-                {
-                    throw new Exception("Сессия истекла. Пожалуйста, войдите снова.");
-                }
-
-                response.EnsureSuccessStatusCode();
+                await HandleCommonErrors(response);
                 return await response.Content.ReadFromJsonAsync<T>();
             }
             catch (Exception ex)
@@ -66,60 +60,60 @@ namespace AdminPanel.Services
             }
         }
 
-        // POST-запрос
         public async Task<HttpResponseMessage> PostAsync(string endpoint, object data)
         {
             try
             {
-                var url = $"{_baseUrl}/{endpoint}";
-                Console.WriteLine($"POST: {url}");
+                var url = $"{_baseUrl}/api/{endpoint.TrimStart('/')}";
+                Console.WriteLine($"POST to: {url}");
 
-                var response = await _httpClient.PostAsJsonAsync(url, data);
-                LogResponse(response);
+                var json = JsonSerializer.Serialize(data, new JsonSerializerOptions
+                {
+                    PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+                    WriteIndented = true
+                });
 
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+                return await _httpClient.PostAsync(url, content);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"POST Error: {ex}");
+                throw;
+            }
+        }
+
+
+
+        public async Task<HttpResponseMessage> PutAsync(string endpoint, object data)
+        {
+            try
+            {
+                var url = $"{_baseUrl}/api/{endpoint.TrimStart('/')}";
+                Console.WriteLine($"PUT Request to: {url}");
+                Console.WriteLine($"Data: {JsonSerializer.Serialize(data)}");
+
+                var response = await _httpClient.PutAsJsonAsync(url, data);
+
+                Console.WriteLine($"Response Status: {response.StatusCode}");
                 return response;
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"POST Error: {ex.Message}");
+                Console.WriteLine($"PUT Request Error: {ex}");
                 throw;
             }
         }
 
-        // PUT-запрос
-        public async Task<T> PutAsync<T>(string endpoint, object data)
-        {
-            try
-            {
-                var url = $"{_baseUrl}/{endpoint}";
-                Console.WriteLine($"PUT: {url}");
-
-                var response = await _httpClient.PutAsJsonAsync(url, data);
-                LogResponse(response);
-
-                response.EnsureSuccessStatusCode();
-
-                return await response.Content.ReadFromJsonAsync<T>();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"PUT Error: {ex.Message}");
-                throw;
-            }
-        }
-
-        // DELETE-запрос
         public async Task DeleteAsync(string endpoint)
         {
             try
             {
-                var url = $"{_baseUrl}/{endpoint}";
-                Console.WriteLine($"DELETE: {url}");
-
+                EnsureAuthenticated();
+                var url = $"{_baseUrl}/api/{endpoint.TrimStart('/')}";
                 var response = await _httpClient.DeleteAsync(url);
-                LogResponse(response);
 
-                response.EnsureSuccessStatusCode();
+                await HandleCommonErrors(response);
             }
             catch (Exception ex)
             {
@@ -128,13 +122,24 @@ namespace AdminPanel.Services
             }
         }
 
-        // Логирование ответа
-        private void LogResponse(HttpResponseMessage response)
+        private async Task HandleCommonErrors(HttpResponseMessage response)
         {
-            Console.WriteLine($"Response: {response.StatusCode}");
+            if (response.StatusCode == HttpStatusCode.Unauthorized)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                throw new UnauthorizedAccessException(content);
+            }
+
+            if (response.StatusCode == HttpStatusCode.NotFound)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                throw new KeyNotFoundException(content);
+            }
+
             if (!response.IsSuccessStatusCode)
             {
-                Console.WriteLine($"Error: {response.ReasonPhrase}");
+                var content = await response.Content.ReadAsStringAsync();
+                throw new HttpRequestException($"HTTP Error: {response.StatusCode} - {content}");
             }
         }
     }

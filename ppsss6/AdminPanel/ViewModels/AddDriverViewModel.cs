@@ -1,9 +1,9 @@
 ﻿using AdminPanel.Models;
 using AdminPanel.Services;
+using AdminPanel.Views;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Windows;
-using static Xamarin.Essentials.Permissions;
 
 namespace AdminPanel.ViewModels
 {
@@ -28,38 +28,51 @@ namespace AdminPanel.ViewModels
 
         public AddDriverViewModel()
         {
-            _apiClient = new ApiClient("http://localhost:5299/api");
+            _apiClient = new ApiClient("http://localhost:5299");
+            _apiClient.SetToken(App.Token);
         }
 
         [RelayCommand]
         private async Task AddDriver()
         {
-            var driver = new Driver
+            try
             {
-                FirstName = FirstName,
-                LastName = LastName,
-                Phone = Phone,
-                LicenseNumber = LicenseNumber,
-                IsAvailable = IsAvailable
-            };
-
-            await _apiClient.PostAsync("drivers", driver);
-
-            // Закрываем окно после успешного добавления
-            foreach (Window window in Application.Current.Windows)
-            {
-                if (window.DataContext == this)
+                var driver = new Driver
                 {
-                    window.Close();
-                    break;
+                    FirstName = FirstName,
+                    LastName = LastName,
+                    Phone = Phone,
+                    LicenseNumber = LicenseNumber,
+                    IsAvailable = IsAvailable
+                };
+
+                var response = await _apiClient.PostAsync("drivers", driver);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    CloseWindow();
                 }
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                MessageBox.Show(ex.Message, "Ошибка авторизации", MessageBoxButton.OK, MessageBoxImage.Error);
+                ShowLoginWindow();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка при добавлении водителя: {ex.Message}",
+                    "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
         [RelayCommand]
         private void Cancel()
         {
-            // Закрываем окно
+            CloseWindow();
+        }
+
+        private void CloseWindow()
+        {
             foreach (Window window in Application.Current.Windows)
             {
                 if (window.DataContext == this)
@@ -68,6 +81,14 @@ namespace AdminPanel.ViewModels
                     break;
                 }
             }
+        }
+
+        private void ShowLoginWindow()
+        {
+            App.Token = null;
+            new LoginWindow().Show();
+            Application.Current.Windows.OfType<Window>()
+                .FirstOrDefault(w => w.DataContext == this)?.Close();
         }
     }
 }

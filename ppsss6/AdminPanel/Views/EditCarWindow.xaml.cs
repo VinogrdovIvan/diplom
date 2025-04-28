@@ -1,4 +1,4 @@
-﻿using AdminPanel.Models; 
+﻿using AdminPanel.Models;
 using AdminPanel.ViewModels;
 using System.Windows;
 

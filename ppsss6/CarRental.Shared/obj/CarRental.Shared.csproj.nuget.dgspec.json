@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\vkr\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj": {}
+    "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj": {}
   },
   "projects": {
-    "C:\\vkr\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj": {
+    "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\vkr\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj",
         "projectName": "CarRental.Shared",
-        "projectPath": "C:\\vkr\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj",
-        "packagesPath": "C:\\Users\\ilyao\\.nuget\\packages\\",
-        "outputPath": "C:\\vkr\\ppsss6\\CarRental.Shared\\obj\\",
+        "projectPath": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj",
+        "packagesPath": "C:\\Users\\aamon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\CarRental.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ilyao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aamon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

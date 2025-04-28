@@ -14,7 +14,6 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <!-- Панель навигации -->
         <Border Grid.Row="0" 
                 Background="{StaticResource AccentBrush}"
                 Padding="10">
@@ -33,7 +32,6 @@
             </StackPanel>
         </Border>
 
-        <!-- Основное содержимое -->
         <Grid Grid.Row="1" Margin="10">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -80,7 +78,6 @@
             </ListView>
         </Grid>
 
-        <!-- Кнопка добавления -->
         <Button Content="+" 
                 Command="{Binding AddItemCommand}"
                 Style="{StaticResource FloatingButtonStyle}"

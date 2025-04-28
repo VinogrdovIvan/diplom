@@ -1,16 +1,361 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\vkr\\ppsss6\\WebApplication2\\",
+  "WorkspaceRootPath": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF927EC0-A5B4-4796-AAB2-63D26C856CD9}|..\\CarRentalApp\\CarRentalApp.csproj|c:\\vkr\\ppsss6\\carrentalapp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\viewmodels\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF927EC0-A5B4-4796-AAB2-63D26C856CD9}|..\\CarRentalApp\\CarRentalApp.csproj|c:\\vkr\\ppsss6\\carrentalapp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\views\\edituserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\vkr\\ppsss6\\webapplication2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\dbcontexts\\testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:dbcontexts\\testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\views\\edituserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\views\\editdriverwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\views\\editdriverwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\views\\editcarwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\views\\editcarwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\views\\adduserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\views\\adduserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\views\\adddriverwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\views\\adddriverwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\views\\addcarwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\views\\addcarwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\models\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\models\\iitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\viewmodels\\editdriverviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\viewmodels\\editcarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\viewmodels\\adduserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\viewmodels\\adddriverviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B33A57D4-1F65-4D57-97CF-4411A086256C}|..\\AdminPanel\\AdminPanel.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\adminpanel\\viewmodels\\addcarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\HomePage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\entities\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:entities\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:entities\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\controllers\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:controllers\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\controllers\\driverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:controllers\\driverscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|c:\\users\\aamon\\desktop\\vkrrrrrrrr\\ppsss6\\webapplication2\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5161FB1F-0183-463A-A809-5EE76DC1DDFE}|WebApplication2.csproj|solutionrelative:controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\CalculateCostViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\OrdersViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\OrderService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\CalculateCostPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\AppShell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\AppShell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\RegisterPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\RegisterPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\ProfilePage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\ProfilePage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\OrdersPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\OrdersPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\LoginPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\LoginPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\HomePage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\EditProfilePage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\EditProfilePage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\CalculateCostPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\RegisterViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\ProfileViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\LoginViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\HomeViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\EditProfileViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\IOrderService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\ICarService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\IAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\CarService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Resources\\Styles\\Colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Handlers\\AuthorizationHeaderHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Converters\\InverseBooleanConverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\UserResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\ReviewResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\OrderResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\DriverResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarUpdatedResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarAvailabilityResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarAddedResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CalculateCostResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\VerifyPasswordRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\UpdateCurrentUserRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\UpdateCarRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\RegisterRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\RefreshTokenRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\LoginRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\CreateOrderRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\CheckCarAvailabilityRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\CalculateCostRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\AddCarRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,50 +365,1350 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Views\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\LoginWindow.xaml",
+              "RelativeToolTip": "..\\AdminPanel\\Views\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T17:27:02.104Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\vkr\\ppsss6\\CarRentalApp\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "..\\CarRentalApp\\Services\\AuthService.cs",
-              "ToolTip": "C:\\vkr\\ppsss6\\CarRentalApp\\Services\\AuthService.cs",
-              "RelativeToolTip": "..\\CarRentalApp\\Services\\AuthService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAApwD4AAABJAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "EditUserWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\EditUserWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Views\\EditUserWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\EditUserWindow.xaml.cs",
+              "RelativeToolTip": "..\\AdminPanel\\Views\\EditUserWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T17:28:37.351Z",
+              "WhenOpened": "2025-04-28T17:26:52.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "..\\CarRentalApp\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "..\\CarRentalApp\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCwAAAA6AAAAAAAAAA==",
+              "Title": "EditUserWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\EditUserWindow.xaml",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Views\\EditUserWindow.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\EditUserWindow.xaml",
+              "RelativeToolTip": "..\\AdminPanel\\Views\\EditUserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T17:25:51.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestdbContext.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\DbContexts\\TestdbContext.cs",
+              "RelativeDocumentMoniker": "DbContexts\\TestdbContext.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\DbContexts\\TestdbContext.cs",
+              "RelativeToolTip": "DbContexts\\TestdbContext.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwB0AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T17:28:08.676Z",
+              "WhenOpened": "2025-04-28T16:44:42.651Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\vkr\\ppsss6\\WebApplication2\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\vkr\\ppsss6\\WebApplication2\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowGAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T17:27:10.906Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\ViewModels\\EditUserViewModel.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\ViewModels\\EditUserViewModel.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\ViewModels\\EditUserViewModel.cs",
+              "RelativeToolTip": "..\\AdminPanel\\ViewModels\\EditUserViewModel.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAmwE8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:22:17.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Views\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "..\\AdminPanel\\Views\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:27:10.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\App.xaml.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\App.xaml.cs",
+              "RelativeToolTip": "..\\AdminPanel\\App.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:27:51.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "..\\AdminPanel\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T17:27:21.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\AdminPanel\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:27:33.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\App.xaml",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\App.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\App.xaml",
+              "RelativeToolTip": "..\\AdminPanel\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T17:27:42.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditDriverWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\EditDriverWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Views\\EditDriverWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\EditDriverWindow.xaml.cs",
+              "RelativeToolTip": "..\\AdminPanel\\Views\\EditDriverWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:25:43.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EditDriverWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\EditDriverWindow.xaml",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Views\\EditDriverWindow.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\EditDriverWindow.xaml",
+              "RelativeToolTip": "..\\AdminPanel\\Views\\EditDriverWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T17:25:34.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditCarWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\EditCarWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Views\\EditCarWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\EditCarWindow.xaml.cs",
+              "RelativeToolTip": "..\\AdminPanel\\Views\\EditCarWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:25:25.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddUserWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\AddUserWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Views\\AddUserWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\AddUserWindow.xaml.cs",
+              "RelativeToolTip": "..\\AdminPanel\\Views\\AddUserWindow.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:24:58.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EditCarWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\EditCarWindow.xaml",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Views\\EditCarWindow.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\EditCarWindow.xaml",
+              "RelativeToolTip": "..\\AdminPanel\\Views\\EditCarWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T17:24:56.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddUserWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\AddUserWindow.xaml",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Views\\AddUserWindow.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\AddUserWindow.xaml",
+              "RelativeToolTip": "..\\AdminPanel\\Views\\AddUserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T17:24:48.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddDriverWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\AddDriverWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Views\\AddDriverWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\AddDriverWindow.xaml.cs",
+              "RelativeToolTip": "..\\AdminPanel\\Views\\AddDriverWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:24:25.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddDriverWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\AddDriverWindow.xaml",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Views\\AddDriverWindow.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\AddDriverWindow.xaml",
+              "RelativeToolTip": "..\\AdminPanel\\Views\\AddDriverWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T17:24:17.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddCarWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\AddCarWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Views\\AddCarWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\AddCarWindow.xaml.cs",
+              "RelativeToolTip": "..\\AdminPanel\\Views\\AddCarWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:24:07.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddCarWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\AddCarWindow.xaml",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Views\\AddCarWindow.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Views\\AddCarWindow.xaml",
+              "RelativeToolTip": "..\\AdminPanel\\Views\\AddCarWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T17:23:54.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Models\\Car.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Models\\Car.cs",
+              "RelativeToolTip": "..\\AdminPanel\\Models\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:23:35.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Models\\Driver.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Models\\Driver.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Models\\Driver.cs",
+              "RelativeToolTip": "..\\AdminPanel\\Models\\Driver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:23:28.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IItem.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Models\\IItem.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Models\\IItem.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Models\\IItem.cs",
+              "RelativeToolTip": "..\\AdminPanel\\Models\\IItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:23:16.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Models\\User.cs",
+              "RelativeToolTip": "..\\AdminPanel\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:22:58.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Services\\ApiClient.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\Services\\ApiClient.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\Services\\ApiClient.cs",
+              "RelativeToolTip": "..\\AdminPanel\\Services\\ApiClient.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAcwJEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:22:49.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "..\\AdminPanel\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAcwM4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:22:31.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "..\\AdminPanel\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAcwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:22:24.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditDriverViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\ViewModels\\EditDriverViewModel.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\ViewModels\\EditDriverViewModel.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\ViewModels\\EditDriverViewModel.cs",
+              "RelativeToolTip": "..\\AdminPanel\\ViewModels\\EditDriverViewModel.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAcwEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:22:09.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EditCarViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\ViewModels\\EditCarViewModel.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\ViewModels\\EditCarViewModel.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\ViewModels\\EditCarViewModel.cs",
+              "RelativeToolTip": "..\\AdminPanel\\ViewModels\\EditCarViewModel.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAcwFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:22:02.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AddUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\ViewModels\\AddUserViewModel.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\ViewModels\\AddUserViewModel.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\ViewModels\\AddUserViewModel.cs",
+              "RelativeToolTip": "..\\AdminPanel\\ViewModels\\AddUserViewModel.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAcwHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:21:55.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AddDriverViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\ViewModels\\AddDriverViewModel.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\ViewModels\\AddDriverViewModel.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\ViewModels\\AddDriverViewModel.cs",
+              "RelativeToolTip": "..\\AdminPanel\\ViewModels\\AddDriverViewModel.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAcwF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:21:47.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AddCarViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\ViewModels\\AddCarViewModel.cs",
+              "RelativeDocumentMoniker": "..\\AdminPanel\\ViewModels\\AddCarViewModel.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\ViewModels\\AddCarViewModel.cs",
+              "RelativeToolTip": "..\\AdminPanel\\ViewModels\\AddCarViewModel.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T17:21:40.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CalculateCostViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\CalculateCostViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\CalculateCostViewModel.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\CalculateCostViewModel.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\CalculateCostViewModel.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAUwHkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:42:53.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\AuthService.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Services\\AuthService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:50:26.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "OrdersViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\OrdersViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\OrdersViewModel.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\OrdersViewModel.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\OrdersViewModel.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAUwHwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:53:13.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\OrderService.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Services\\OrderService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:50:49.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "CalculateCostPage.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\CalculateCostPage.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\CalculateCostPage.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\CalculateCostPage.xaml",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\CalculateCostPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvzMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T16:41:08.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\HomePage.xaml",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T16:41:14.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\AppShell.xaml",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T16:54:36.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\App.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:54:32.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\AppShell.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:54:41.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\MauiProgram.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\MauiProgram.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:54:45.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\App.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\App.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\App.xaml",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T16:54:29.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:54:24.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\RegisterPage.xaml",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\RegisterPage.xaml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwEQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T16:54:20.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\ProfilePage.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:54:16.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\ProfilePage.xaml",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\ProfilePage.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAcwEYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T16:54:13.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "OrdersPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\OrdersPage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\OrdersPage.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\OrdersPage.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\OrdersPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:54:08.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "OrdersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\OrdersPage.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\OrdersPage.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\OrdersPage.xaml",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\OrdersPage.xaml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAcwHAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T16:54:04.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:54:00.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T16:53:57.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\HomePage.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:53:53.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "EditProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\EditProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\EditProfilePage.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\EditProfilePage.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\EditProfilePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:53:45.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "EditProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\EditProfilePage.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\EditProfilePage.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\EditProfilePage.xaml",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\EditProfilePage.xaml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAcwEIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T16:53:41.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "CalculateCostPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\CalculateCostPage.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\CalculateCostPage.xaml.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Views\\CalculateCostPage.xaml.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Views\\CalculateCostPage.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:53:37.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:53:25.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvzAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:53:21.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:53:13.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAUwJ0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:53:08.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "EditProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\EditProfileViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\EditProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\EditProfileViewModel.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\ViewModels\\EditProfileViewModel.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAUwFcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:53:05.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Services\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\IOrderService.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:50:44.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "ICarService.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\ICarService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Services\\ICarService.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\ICarService.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Services\\ICarService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:50:39.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\IAuthService.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:50:35.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Services\\CarService.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Services\\CarService.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Services\\CarService.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAUwIkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:50:30.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Resources\\Styles\\Colors.xaml",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Resources\\Styles\\Colors.xaml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwDoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-28T16:50:21.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "AuthorizationHeaderHandler.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Handlers\\AuthorizationHeaderHandler.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Handlers\\AuthorizationHeaderHandler.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Handlers\\AuthorizationHeaderHandler.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Handlers\\AuthorizationHeaderHandler.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:50:11.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "InverseBooleanConverter.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Converters\\InverseBooleanConverter.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Converters\\InverseBooleanConverter.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRentalApp\\Converters\\InverseBooleanConverter.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRentalApp\\Converters\\InverseBooleanConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:50:02.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\UserResponse.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\UserResponse.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\UserResponse.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\UserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:48:32.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "ReviewResponse.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\ReviewResponse.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\ReviewResponse.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\ReviewResponse.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\ReviewResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:48:24.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "OrderResponse.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\OrderResponse.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\OrderResponse.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\OrderResponse.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\OrderResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:48:20.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "DriverResponse.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\DriverResponse.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\DriverResponse.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\DriverResponse.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\DriverResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:48:16.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "CarUpdatedResponse.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarUpdatedResponse.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarUpdatedResponse.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarUpdatedResponse.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarUpdatedResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:48:12.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "CarResponse.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarResponse.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarResponse.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarResponse.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:48:08.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "CarAvailabilityResponse.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarAvailabilityResponse.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarAvailabilityResponse.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarAvailabilityResponse.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarAvailabilityResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:48:04.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "CarAddedResponse.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarAddedResponse.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarAddedResponse.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarAddedResponse.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CarAddedResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:48:00.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "CalculateCostResponse.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CalculateCostResponse.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CalculateCostResponse.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CalculateCostResponse.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Responses\\CalculateCostResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:47:55.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "VerifyPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\VerifyPasswordRequest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\VerifyPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\VerifyPasswordRequest.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\VerifyPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:47:51.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "UpdateCurrentUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\UpdateCurrentUserRequest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\UpdateCurrentUserRequest.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\UpdateCurrentUserRequest.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\UpdateCurrentUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:47:47.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "UpdateCarRequest.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\UpdateCarRequest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\UpdateCarRequest.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\UpdateCarRequest.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\UpdateCarRequest.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:47:43.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\RegisterRequest.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:47:39.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "RefreshTokenRequest.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\RefreshTokenRequest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\RefreshTokenRequest.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\RefreshTokenRequest.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\RefreshTokenRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:47:35.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\LoginRequest.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:47:31.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "CreateOrderRequest.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\CreateOrderRequest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\CreateOrderRequest.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\CreateOrderRequest.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\CreateOrderRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:47:27.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "CheckCarAvailabilityRequest.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\CheckCarAvailabilityRequest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\CheckCarAvailabilityRequest.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\CheckCarAvailabilityRequest.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\CheckCarAvailabilityRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:47:23.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "CalculateCostRequest.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\CalculateCostRequest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\CalculateCostRequest.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\CalculateCostRequest.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\CalculateCostRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:47:19.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "AddCarRequest.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\AddCarRequest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\AddCarRequest.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkr\\ppsss6\\CarRental.Shared\\Requests\\AddCarRequest.cs",
+              "RelativeToolTip": "..\\..\\..\\vkr\\ppsss6\\CarRental.Shared\\Requests\\AddCarRequest.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:47:15.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAcwGAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:45:47.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-28T16:45:45.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-28T16:45:41.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Services\\JwtService.cs",
+              "RelativeToolTip": "Services\\JwtService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAADwv0UAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:45:34.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:45:28.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:45:21.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\User.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Entities\\User.cs",
+              "RelativeToolTip": "Entities\\User.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:45:14.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Entities\\Session.cs",
+              "RelativeDocumentMoniker": "Entities\\Session.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Entities\\Session.cs",
+              "RelativeToolTip": "Entities\\Session.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:45:11.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Entities\\Role.cs",
+              "RelativeToolTip": "Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:45:07.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Entities\\Review.cs",
+              "RelativeDocumentMoniker": "Entities\\Review.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Entities\\Review.cs",
+              "RelativeToolTip": "Entities\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:45:03.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "Entities\\Payment.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Entities\\Payment.cs",
+              "RelativeToolTip": "Entities\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:44:59.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Entities\\Order.cs",
+              "RelativeToolTip": "Entities\\Order.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:44:55.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Entities\\Driver.cs",
+              "RelativeDocumentMoniker": "Entities\\Driver.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Entities\\Driver.cs",
+              "RelativeToolTip": "Entities\\Driver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:44:51.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Entities\\Car.cs",
+              "RelativeDocumentMoniker": "Entities\\Car.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Entities\\Car.cs",
+              "RelativeToolTip": "Entities\\Car.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:44:47.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAANsAAAAAAAAAAAAcwP0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:44:38.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "Controllers\\RolesController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAUwJUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:44:34.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReviewsController.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "Controllers\\ReviewsController.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAUwJEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:44:29.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\Repository.cs",
+              "RelativeDocumentMoniker": "Controllers\\Repository.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\Repository.cs",
+              "RelativeToolTip": "Controllers\\Repository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:44:26.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAUwJMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:44:22.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAUwLwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:44:18.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "DriversController.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\DriversController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DriversController.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\DriversController.cs",
+              "RelativeToolTip": "Controllers\\DriversController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAUwJIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:44:14.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarsController.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "Controllers\\CarsController.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAUwNMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:44:10.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\WebApplication2\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Controllers\\BaseController.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAUwKAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:44:05.327Z"
             }
           ]
         }

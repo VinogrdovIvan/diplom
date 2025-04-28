@@ -7,7 +7,7 @@
         "Action": "Start"
       },
       {
-        "Path": "..\\CarRentalApp\\CarRentalApp.csproj",
+        "Path": "..\\AdminPanel\\AdminPanel.csproj",
         "Action": "Start"
       }
     ]

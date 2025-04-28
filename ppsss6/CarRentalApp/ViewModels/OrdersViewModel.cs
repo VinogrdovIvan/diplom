@@ -73,7 +73,7 @@ namespace CarRentalApp.ViewModels
             try
             {
                 IsBusy = true;
-                await Task.Delay(500); // Для визуального эффекта обновления
+                await Task.Delay(500); 
                 await LoadOrdersAsync();
             }
             catch (Exception ex)

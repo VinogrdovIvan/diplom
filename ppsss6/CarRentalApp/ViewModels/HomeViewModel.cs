@@ -87,7 +87,6 @@ namespace CarRentalApp.ViewModels
 
             LoadCarsCommand = new Command(async () => await LoadCarsAsync());
 
-            // Загружаем данные при создании
             Task.Run(async () => await LoadCarsAsync());
         }
 

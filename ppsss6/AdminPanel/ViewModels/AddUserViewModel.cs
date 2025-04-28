@@ -1,10 +1,11 @@
 ﻿using AdminPanel.Models;
 using AdminPanel.Services;
+using AdminPanel.Views;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using System.Text.Json;
 using System.Windows;
-using static Xamarin.Essentials.Permissions;
-using Xamarin.Essentials;
+using System.Windows.Controls;
 
 namespace AdminPanel.ViewModels
 {
@@ -29,38 +30,71 @@ namespace AdminPanel.ViewModels
 
         public AddUserViewModel()
         {
-            _apiClient = new ApiClient("http://localhost:5299/api");
+            _apiClient = new ApiClient("http://localhost:5299");
+            _apiClient.SetToken(App.Token);
         }
 
         [RelayCommand]
         private async Task AddUser()
         {
-            var user = new User
+            try
             {
-                FirstName = FirstName,
-                LastName = LastName,
-                Email = Email,
-                Phone = Phone,
-                Password = Password
-            };
-
-            await _apiClient.PostAsync("users", user);
-
-            // Закрываем окно после успешного добавления
-            foreach (Window window in Application.Current.Windows)
-            {
-                if (window.DataContext == this)
+                if (string.IsNullOrWhiteSpace(FirstName) ||
+                    string.IsNullOrWhiteSpace(LastName) ||
+                    string.IsNullOrWhiteSpace(Email) ||
+                    string.IsNullOrWhiteSpace(Phone) ||
+                    string.IsNullOrWhiteSpace(Password))
                 {
-                    window.Close();
-                    break;
+                    MessageBox.Show("Все поля обязательны для заполнения", "Ошибка");
+                    return;
                 }
+
+                if (Password.Length < 6)
+                {
+                    MessageBox.Show("Пароль должен содержать минимум 6 символов", "Ошибка");
+                    return;
+                }
+
+                var userDto = new
+                {
+                    FirstName,
+                    LastName,
+                    Email,
+                    Phone,
+                    Password,
+                    RoleId = 3
+                };
+
+                Console.WriteLine($"Отправка данных: {JsonSerializer.Serialize(userDto)}");
+
+                var response = await _apiClient.PostAsync("auth/register", userDto);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    MessageBox.Show("Пользователь успешно создан", "Успех");
+                    CloseWindow();
+                }
+                else
+                {
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    MessageBox.Show($"Ошибка сервера: {errorContent}", "Ошибка");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Произошла ошибка: {ex.Message}", "Ошибка");
+                Console.WriteLine($"Полная ошибка: {ex}");
             }
         }
 
         [RelayCommand]
         private void Cancel()
         {
-            // Закрываем окно
+            CloseWindow();
+        }
+
+        private void CloseWindow()
+        {
             foreach (Window window in Application.Current.Windows)
             {
                 if (window.DataContext == this)
@@ -69,6 +103,14 @@ namespace AdminPanel.ViewModels
                     break;
                 }
             }
+        }
+
+        private void ShowLoginWindow()
+        {
+            App.Token = null;
+            new LoginWindow().Show();
+            Application.Current.Windows.OfType<Window>()
+                .FirstOrDefault(w => w.DataContext == this)?.Close();
         }
     }
 }

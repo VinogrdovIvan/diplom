@@ -95,6 +95,41 @@ namespace WebApplication2.Migrations
                         .HasName("PRIMARY");
 
                     b.ToTable("cars", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            CarId = 1,
+                            Brand = "Toyota",
+                            Color = "Black",
+                            HourlyRate = 25.50m,
+                            IsAvailable = true,
+                            LicensePlate = "ABC123",
+                            Model = "Camry",
+                            Year = 2020
+                        },
+                        new
+                        {
+                            CarId = 2,
+                            Brand = "Honda",
+                            Color = "White",
+                            HourlyRate = 23.75m,
+                            IsAvailable = true,
+                            LicensePlate = "XYZ789",
+                            Model = "Accord",
+                            Year = 2019
+                        },
+                        new
+                        {
+                            CarId = 3,
+                            Brand = "Ford",
+                            Color = "Blue",
+                            HourlyRate = 20.00m,
+                            IsAvailable = true,
+                            LicensePlate = "DEF456",
+                            Model = "Focus",
+                            Year = 2021
+                        });
                 });
 
             modelBuilder.Entity("WebApplication2.Entities.Driver", b =>
@@ -144,6 +179,38 @@ namespace WebApplication2.Migrations
                         .HasName("PRIMARY");
 
                     b.ToTable("drivers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            DriverId = 1,
+                            FirstName = "Иван",
+                            HireDate = new DateOnly(2020, 1, 15),
+                            IsAvailable = true,
+                            LastName = "Иванов",
+                            LicenseNumber = "DL12345",
+                            Phone = "+79001234567"
+                        },
+                        new
+                        {
+                            DriverId = 2,
+                            FirstName = "Петр",
+                            HireDate = new DateOnly(2019, 5, 20),
+                            IsAvailable = true,
+                            LastName = "Петров",
+                            LicenseNumber = "DL67890",
+                            Phone = "+79007654321"
+                        },
+                        new
+                        {
+                            DriverId = 3,
+                            FirstName = "Сергей",
+                            HireDate = new DateOnly(2021, 3, 10),
+                            IsAvailable = true,
+                            LastName = "Сергеев",
+                            LicenseNumber = "DL54321",
+                            Phone = "+79005556677"
+                        });
                 });
 
             modelBuilder.Entity("WebApplication2.Entities.Order", b =>

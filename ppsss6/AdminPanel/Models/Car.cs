@@ -20,7 +20,7 @@
         public string Name
         {
             get => $"{Brand} {Model}";
-            set { } 
+            set { }
         }
     }
 }

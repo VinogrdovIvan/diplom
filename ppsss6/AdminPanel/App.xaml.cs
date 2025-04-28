@@ -7,6 +7,13 @@ namespace AdminPanel
     {
         public static string Token { get; set; }
 
+        public static void ClearTokenAndReturnToLogin()
+        {
+            Token = null;
+            Current?.Windows.OfType<MainWindow>().FirstOrDefault()?.Close();
+            new LoginWindow().Show();
+        }
+
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
@@ -18,8 +25,7 @@ namespace AdminPanel
                     DefaultValue = FindResource(typeof(Window))
                 });
 
-            var loginWindow = new LoginWindow();
-            loginWindow.Show();
+            new LoginWindow().Show();
         }
     }
 }

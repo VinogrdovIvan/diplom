@@ -1,5 +1,6 @@
 ﻿using AdminPanel.Models;
 using AdminPanel.Services;
+using AdminPanel.Views;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Windows;
@@ -33,40 +34,53 @@ namespace AdminPanel.ViewModels
 
         public AddCarViewModel()
         {
-            _apiClient = new ApiClient("http://localhost:5299/api");
+            _apiClient = new ApiClient("http://localhost:5299");
+            _apiClient.SetToken(App.Token);
         }
 
         [RelayCommand]
         private async Task AddCar()
         {
-            var car = new Car
+            try
             {
-                Brand = Brand,
-                Model = Model,
-                Year = Year,
-                Color = Color,
-                LicensePlate = LicensePlate,
-                HourlyRate = HourlyRate,
-                IsAvailable = IsAvailable
-            };
-
-            await _apiClient.PostAsync("cars", car);
-
-            // Закрываем окно после успешного добавления
-            foreach (Window window in Application.Current.Windows)
-            {
-                if (window.DataContext == this)
+                var car = new Car
                 {
-                    window.Close();
-                    break;
+                    Brand = Brand,
+                    Model = Model,
+                    Year = Year,
+                    Color = Color,
+                    LicensePlate = LicensePlate,
+                    HourlyRate = HourlyRate,
+                    IsAvailable = IsAvailable
+                };
+
+                var response = await _apiClient.PostAsync("cars", car);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    CloseWindow();
                 }
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                MessageBox.Show(ex.Message, "Ошибка авторизации", MessageBoxButton.OK, MessageBoxImage.Error);
+                ShowLoginWindow();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка при добавлении автомобиля: {ex.Message}",
+                    "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
         [RelayCommand]
         private void Cancel()
         {
-            // Закрываем окно
+            CloseWindow();
+        }
+
+        private void CloseWindow()
+        {
             foreach (Window window in Application.Current.Windows)
             {
                 if (window.DataContext == this)
@@ -75,6 +89,14 @@ namespace AdminPanel.ViewModels
                     break;
                 }
             }
+        }
+
+        private void ShowLoginWindow()
+        {
+            App.Token = null;
+            new LoginWindow().Show();
+            Application.Current.Windows.OfType<Window>()
+                .FirstOrDefault(w => w.DataContext == this)?.Close();
         }
     }
 }

@@ -7,13 +7,11 @@ namespace WebApplication2.DbContexts
     {
         public TestdbContext()
         {
-
         }
 
         public TestdbContext(DbContextOptions<TestdbContext> options)
             : base(options)
         {
-
         }
 
         public virtual DbSet<Car> Cars { get; set; }
@@ -25,12 +23,11 @@ namespace WebApplication2.DbContexts
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Session> Sessions { get; set; }
 
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySql("server=localhost;database=testdb1;user=root;password=12032003",
+                optionsBuilder.UseMySql("server=localhost;database=testdb6;user=root;password=123456789",
                     Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.40-mysql"));
             }
         }
@@ -41,7 +38,7 @@ namespace WebApplication2.DbContexts
                 .UseCollation("utf8mb4_0900_ai_ci")
                 .HasCharSet("utf8mb4");
 
-            //Car
+            // Car
             modelBuilder.Entity<Car>(entity =>
             {
                 entity.HasKey(e => e.CarId).HasName("PRIMARY");
@@ -79,7 +76,43 @@ namespace WebApplication2.DbContexts
                         });
             });
 
-            //Driver
+            modelBuilder.Entity<Car>().HasData(
+                new Car
+                {
+                    CarId = 1,
+                    Brand = "Toyota",
+                    Model = "Camry",
+                    Year = 2020,
+                    Color = "Black",
+                    LicensePlate = "ABC123",
+                    HourlyRate = 25.50m,
+                    IsAvailable = true
+                },
+                new Car
+                {
+                    CarId = 2,
+                    Brand = "Honda",
+                    Model = "Accord",
+                    Year = 2019,
+                    Color = "White",
+                    LicensePlate = "XYZ789",
+                    HourlyRate = 23.75m,
+                    IsAvailable = true
+                },
+                new Car
+                {
+                    CarId = 3,
+                    Brand = "Ford",
+                    Model = "Focus",
+                    Year = 2021,
+                    Color = "Blue",
+                    LicensePlate = "DEF456",
+                    HourlyRate = 20.00m,
+                    IsAvailable = true
+                }
+            );
+
+            // Driver
             modelBuilder.Entity<Driver>(entity =>
             {
                 entity.HasKey(e => e.DriverId).HasName("PRIMARY");
@@ -93,7 +126,40 @@ namespace WebApplication2.DbContexts
                 entity.Property(e => e.Phone).HasMaxLength(15).HasColumnName("phone");
             });
 
-            //Order
+            modelBuilder.Entity<Driver>().HasData(
+                new Driver
+                {
+                    DriverId = 1,
+                    FirstName = "Иван",
+                    LastName = "Иванов",
+                    LicenseNumber = "DL12345",
+                    Phone = "+79001234567",
+                    HireDate = DateOnly.FromDateTime(new DateTime(2020, 1, 15)),
+                    IsAvailable = true
+                },
+                new Driver
+                {
+                    DriverId = 2,
+                    FirstName = "Петр",
+                    LastName = "Петров",
+                    LicenseNumber = "DL67890",
+                    Phone = "+79007654321",
+                    HireDate = DateOnly.FromDateTime(new DateTime(2019, 5, 20)),
+                    IsAvailable = true
+                },
+                new Driver
+                {
+                    DriverId = 3,
+                    FirstName = "Сергей",
+                    LastName = "Сергеев",
+                    LicenseNumber = "DL54321",
+                    Phone = "+79005556677",
+                    HireDate = DateOnly.FromDateTime(new DateTime(2021, 3, 10)),
+                    IsAvailable = true
+                }
+            );
+
+            // Order
             modelBuilder.Entity<Order>(entity =>
             {
                 entity.HasKey(e => e.OrderId).HasName("PRIMARY");
@@ -126,7 +192,7 @@ namespace WebApplication2.DbContexts
                     .HasConstraintName("orders_ibfk_1");
             });
 
-            //Payment
+            // Payment
             modelBuilder.Entity<Payment>(entity =>
             {
                 entity.HasKey(e => e.PaymentId).HasName("PRIMARY");
@@ -144,7 +210,7 @@ namespace WebApplication2.DbContexts
                     .HasConstraintName("payments_ibfk_1");
             });
 
-            //Review
+            // Review
             modelBuilder.Entity<Review>(entity =>
             {
                 entity.HasKey(e => e.ReviewId).HasName("PRIMARY");
@@ -162,7 +228,7 @@ namespace WebApplication2.DbContexts
                     .HasConstraintName("reviews_ibfk_1");
             });
 
-            //Role
+            // Role
             modelBuilder.Entity<Role>(entity =>
             {
                 entity.HasKey(e => e.RoleId).HasName("PRIMARY");
@@ -178,7 +244,7 @@ namespace WebApplication2.DbContexts
                     new Role(3, "Admin", null));
             });
 
-            //User
+            // User
             modelBuilder.Entity<User>(entity =>
             {
                 entity.HasKey(e => e.UserId).HasName("PRIMARY");
@@ -207,7 +273,6 @@ namespace WebApplication2.DbContexts
                     .WithMany(u => u.Sessions)
                     .HasForeignKey(d => d.UserId);
             });
-
 
             OnModelCreatingPartial(modelBuilder);
         }

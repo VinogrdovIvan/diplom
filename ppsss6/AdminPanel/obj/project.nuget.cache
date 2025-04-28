@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GbPB4edlajo=",
+  "dgSpecHash": "8d/rDIpYhvY=",
   "success": true,
-  "projectFilePath": "C:\\vkr\\ppsss6\\AdminPanel\\AdminPanel.csproj",
+  "projectFilePath": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\AdminPanel\\AdminPanel.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ilyao\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
-    "C:\\Users\\ilyao\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\ilyao\\.nuget\\packages\\xamarin.essentials\\1.8.1\\xamarin.essentials.1.8.1.nupkg.sha512"
+    "C:\\Users\\aamon\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
+    "C:\\Users\\aamon\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\aamon\\.nuget\\packages\\xamarin.essentials\\1.8.1\\xamarin.essentials.1.8.1.nupkg.sha512"
   ],
   "logs": []
 }

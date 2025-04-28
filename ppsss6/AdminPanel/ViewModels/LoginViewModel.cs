@@ -4,9 +4,10 @@ using AdminPanel.Views;
 using CarRental.Shared.Responses;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using System.Net;
+using System.Net.Http;
 using System.Text.Json;
 using System.Windows;
-using System.Windows.Data;
 
 namespace AdminPanel.ViewModels
 {
@@ -25,7 +26,7 @@ namespace AdminPanel.ViewModels
 
         public LoginViewModel()
         {
-            _apiClient = new ApiClient("http://localhost:5299/");
+            _apiClient = new ApiClient("http://localhost:5299");
         }
 
         [RelayCommand]
@@ -33,32 +34,42 @@ namespace AdminPanel.ViewModels
         {
             try
             {
-                var response = await _apiClient.PostAsync("api/auth/login", new
+                ErrorMessage = string.Empty;
+
+                if (string.IsNullOrWhiteSpace(Email) || string.IsNullOrWhiteSpace(Password))
+                {
+                    ErrorMessage = "Email и пароль обязательны для заполнения";
+                    return;
+                }
+
+                var response = await _apiClient.PostAsync("auth/login", new
                 {
                     Email = Email,
                     Password = Password
                 });
-                var jsonContent = await response.Content.ReadAsStringAsync();
 
-                if (!response.IsSuccessStatusCode)
+                var jsonContent = await response.Content.ReadAsStringAsync();
+                var tokenResponse = JsonSerializer.Deserialize<TokenResponse>(jsonContent);
+
+                if (string.IsNullOrEmpty(tokenResponse?.AccessToken))
                 {
-                    ErrorMessage = "Ошибка авторизации: " + jsonContent;
+                    ErrorMessage = "Неверный ответ сервера";
                     return;
                 }
 
-                var tokenResponse = JsonSerializer.Deserialize<TokenResponse>(jsonContent);
                 App.Token = tokenResponse.AccessToken;
-
-                // Устанавливаем токен для ApiClient
                 _apiClient.SetToken(App.Token);
 
-                // Открываем основное окно
                 new MainWindow().Show();
                 Application.Current.Windows.OfType<LoginWindow>().First().Close();
             }
+            catch (HttpRequestException ex) when (ex.StatusCode == HttpStatusCode.Unauthorized)
+            {
+                ErrorMessage = "Неверный email или пароль";
+            }
             catch (Exception ex)
             {
-                ErrorMessage = "Ошибка: " + ex.Message;
+                ErrorMessage = $"Ошибка входа: {ex.Message}";
             }
         }
     }

@@ -1,5 +1,6 @@
 ﻿using AdminPanel.Models;
 using AdminPanel.Services;
+using AdminPanel.Views;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Windows;
@@ -15,16 +16,42 @@ namespace AdminPanel.ViewModels
 
         public EditDriverViewModel(Driver driver)
         {
-            _apiClient = new ApiClient("http://localhost:5299/api");
+            _apiClient = new ApiClient("http://localhost:5299");
+            _apiClient.SetToken(App.Token);
             Driver = driver;
         }
 
         [RelayCommand]
         private async Task SaveDriver()
         {
-            await _apiClient.PutAsync<Driver>($"drivers/{Driver.DriverId}", Driver);
+            try
+            {
+                var response = await _apiClient.PutAsync($"drivers/{Driver.DriverId}", Driver);
+                if (response.IsSuccessStatusCode)
+                {
+                    CloseWindow();
+                }
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                MessageBox.Show(ex.Message, "Ошибка авторизации", MessageBoxButton.OK, MessageBoxImage.Error);
+                ShowLoginWindow();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка при сохранении водителя: {ex.Message}",
+                    "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
 
-            // Закрываем окно после успешного сохранения
+        [RelayCommand]
+        private void Cancel()
+        {
+            CloseWindow();
+        }
+
+        private void CloseWindow()
+        {
             foreach (Window window in Application.Current.Windows)
             {
                 if (window.DataContext == this)
@@ -35,18 +62,12 @@ namespace AdminPanel.ViewModels
             }
         }
 
-        [RelayCommand]
-        private void Cancel()
+        private void ShowLoginWindow()
         {
-            // Закрываем окно
-            foreach (Window window in Application.Current.Windows)
-            {
-                if (window.DataContext == this)
-                {
-                    window.Close();
-                    break;
-                }
-            }
+            App.Token = null;
+            new LoginWindow().Show();
+            Application.Current.Windows.OfType<Window>()
+                .FirstOrDefault(w => w.DataContext == this)?.Close();
         }
     }
 }
