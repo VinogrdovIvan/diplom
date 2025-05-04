@@ -8,6 +8,12 @@
     <Compile Update="Views\AddDriverWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\AddOrderWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AddReviewWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\AddUserWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -15,6 +21,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\EditDriverWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\EditOrderWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\EditUserWindow.xaml.cs">

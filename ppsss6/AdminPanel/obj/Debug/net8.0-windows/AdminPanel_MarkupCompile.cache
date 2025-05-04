@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\aamon\Desktop\vkrrrrrrrr\ppsss6\AdminPanel\App.xaml
-8-1986285062
+112036162976
 
-24-1237082984
-2011355422200
-Views\AddCarWindow.xaml;Views\AddDriverWindow.xaml;Views\AddUserWindow.xaml;Views\EditCarWindow.xaml;Views\EditDriverWindow.xaml;Views\EditUserWindow.xaml;Views\LoginWindow.xaml;Views\MainWindow.xaml;
+39-981830987
+209-1384652192
+Views\AddCarWindow.xaml;Views\AddDriverWindow.xaml;Views\AddOrderWindow.xaml;Views\AddReviewWindow.xaml;Views\AddUserWindow.xaml;Views\EditCarWindow.xaml;Views\EditDriverWindow.xaml;Views\EditOrderWindow.xaml;Views\EditUserWindow.xaml;Views\LoginWindow.xaml;Views\MainWindow.xaml;
 
 False
 

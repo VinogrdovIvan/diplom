@@ -14,6 +14,12 @@ namespace CarRentalApp
             Routing.RegisterRoute(nameof(CalculateCostPage), typeof(CalculateCostPage));
             Routing.RegisterRoute(nameof(ProfilePage), typeof(ProfilePage));
             Routing.RegisterRoute(nameof(EditProfilePage), typeof(EditProfilePage));
+            RegisterRoutes();
+        }
+
+        private void RegisterRoutes()
+        {
+            Routing.RegisterRoute(nameof(ReviewPage), typeof(ReviewPage));
         }
     }
 }

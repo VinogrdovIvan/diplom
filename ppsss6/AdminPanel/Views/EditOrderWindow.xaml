@@ -1,0 +1,83 @@
+﻿<Window x:Class="AdminPanel.Views.EditOrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:converters="clr-namespace:AdminPanel.Converters"
+        Height="650" Width="500"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner">
+
+    <Window.Resources>
+        <converters:StatusToVisibilityConverter x:Key="StatusToVisibilityConverter"/>
+    </Window.Resources>
+
+    <Grid Background="{StaticResource PrimaryDarkBrush}">
+        <Border Background="White"
+                CornerRadius="10"
+                Padding="20"
+                Margin="20">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <StackPanel>
+                    <TextBlock Text="Редактировать заказ" 
+                           FontSize="18"
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,20"/>
+
+                    <TextBlock Text="{Binding Order.Name}" 
+                               FontSize="18"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Center"
+                               Margin="0,0,0,20"/>
+
+                    <TextBlock Text="Автомобиль" Foreground="{StaticResource DarkTextBrush}"/>
+                    <ComboBox ItemsSource="{Binding AvailableCars}"
+                              DisplayMemberPath="Name"
+                              SelectedValuePath="CarId"
+                              SelectedValue="{Binding Order.CarId}"/>
+
+                    <TextBlock Text="Водитель" Foreground="{StaticResource DarkTextBrush}" Margin="0,10,0,0"/>
+                    <ComboBox ItemsSource="{Binding AvailableDrivers}"
+                              DisplayMemberPath="Name"
+                              SelectedValuePath="DriverId"
+                              SelectedValue="{Binding Order.DriverId}"/>
+
+                    <TextBlock Text="Дата начала" Foreground="{StaticResource DarkTextBrush}" Margin="0,10,0,0"/>
+                    <DatePicker SelectedDate="{Binding Order.StartDate}"/>
+
+                    <TextBlock Text="Дата окончания" Foreground="{StaticResource DarkTextBrush}" Margin="0,10,0,0"/>
+                    <DatePicker SelectedDate="{Binding Order.EndDate}"/>
+
+                    <TextBlock Text="Стоимость" Foreground="{StaticResource DarkTextBrush}" Margin="0,10,0,0"/>
+                    <TextBox Text="{Binding Order.TotalCost}"/>
+
+                    <TextBlock Text="Статус" Foreground="{StaticResource DarkTextBrush}" Margin="0,10,0,0"/>
+                    <ComboBox ItemsSource="{Binding Statuses}"
+                              SelectedItem="{Binding Order.Status}"/>
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                        <Button Content="Сохранить" 
+                                Command="{Binding SaveOrderCommand}"
+                                Width="200"/>
+
+                        <Button Content="Завершить" 
+                                Command="{Binding CompleteOrderCommand}"
+                                Width="100"
+                                Margin="10,0,0,0"
+                                Visibility="{Binding Order.Status, 
+                                            Converter={StaticResource StatusToVisibilityConverter}, 
+                                            ConverterParameter=Активен}"/>
+
+                        <Button Content="Отменить" 
+                                Command="{Binding CancelOrderCommand}"
+                                Width="100"
+                                Margin="10,0,0,0"
+                                Visibility="{Binding Order.Status, 
+                                            Converter={StaticResource StatusToVisibilityConverter}, 
+                                            ConverterParameter=Подтвержден}"/>
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+        </Border>
+    </Grid>
+</Window>
+

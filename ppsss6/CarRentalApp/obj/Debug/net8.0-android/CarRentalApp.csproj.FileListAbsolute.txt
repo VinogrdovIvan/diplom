@@ -21555,7 +21555,6 @@ C:\Users\aamon\Desktop\vkrrrrrrrr\ppsss6\CarRentalApp\obj\Debug\net8.0-android\a
 C:\Users\aamon\Desktop\vkrrrrrrrr\ppsss6\CarRentalApp\obj\Debug\net8.0-android\android\assets\System.Numerics.dll
 C:\Users\aamon\Desktop\vkrrrrrrrr\ppsss6\CarRentalApp\obj\Debug\net8.0-android\android\assets\System.Numerics.Vectors.dll
 C:\Users\aamon\Desktop\vkrrrrrrrr\ppsss6\CarRentalApp\obj\Debug\net8.0-android\android\assets\System.ObjectModel.dll
-C:\Users\aamon\Desktop\vkrrrrrrrr\ppsss6\CarRentalApp\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\aamon\Desktop\vkrrrrrrrr\ppsss6\CarRentalApp\obj\Debug\net8.0-android\android\assets\System.Private.DataContractSerialization.dll
 C:\Users\aamon\Desktop\vkrrrrrrrr\ppsss6\CarRentalApp\obj\Debug\net8.0-android\android\assets\System.Private.Uri.dll
 C:\Users\aamon\Desktop\vkrrrrrrrr\ppsss6\CarRentalApp\obj\Debug\net8.0-android\android\assets\System.Private.Xml.dll
@@ -22319,3 +22318,4 @@ C:\Users\aamon\Desktop\vkrrrrrrrr\ppsss6\CarRentalApp\obj\Debug\net8.0-android\s
 C:\Users\aamon\Desktop\vkrrrrrrrr\ppsss6\CarRentalApp\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\aamon\Desktop\vkrrrrrrrr\ppsss6\CarRentalApp\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\aamon\Desktop\vkrrrrrrrr\ppsss6\CarRentalApp\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\aamon\Desktop\vkrrrrrrrr\ppsss6\CarRentalApp\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll

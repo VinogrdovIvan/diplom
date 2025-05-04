@@ -8,5 +8,7 @@
         public string Phone { get; set; }
         public string LicenseNumber { get; set; }
         public bool IsAvailable { get; set; }
+
+        public string FullName => $"{FirstName} {LastName}";
     }
 }

@@ -91,6 +91,22 @@
   },
   {
     "ContainingType": "WebApplication2.Controllers.CarsController",
+    "Method": "GetCarById",
+    "RelativePath": "api/Cars/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2.Controllers.CarsController",
     "Method": "UpdateCar",
     "RelativePath": "api/Cars/{id}",
     "HttpMethod": "PUT",
@@ -242,6 +258,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApplication2.Controllers.DriversController",
+    "Method": "GetAvailableDrivers",
+    "RelativePath": "api/Drivers/available",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApplication2.Controllers.OrdersController",
     "Method": "Create",
     "RelativePath": "api/Orders",
@@ -269,6 +295,26 @@
   },
   {
     "ContainingType": "WebApplication2.Controllers.OrdersController",
+    "Method": "GetAllOrders",
+    "RelativePath": "api/Orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CarRental.Shared.Responses.OrderResponse, CarRental.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication2.Controllers.OrdersController",
     "Method": "Cancel",
     "RelativePath": "api/Orders/{id}",
     "HttpMethod": "DELETE",
@@ -282,6 +328,37 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2.Controllers.OrdersController",
+    "Method": "UpdateOrder",
+    "RelativePath": "api/Orders/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "CarRental.Shared.Requests.UpdateOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CarRental.Shared.Responses.OrderResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "WebApplication2.Controllers.OrdersController",
@@ -401,12 +478,22 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "review",
-        "Type": "WebApplication2.Entities.Review",
+        "Name": "request",
+        "Type": "CarRental.Shared.Requests.CreateReviewRequest",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "CarRental.Shared.Responses.ReviewResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "WebApplication2.Controllers.ReviewsController",
@@ -426,27 +513,6 @@
   },
   {
     "ContainingType": "WebApplication2.Controllers.ReviewsController",
-    "Method": "Update",
-    "RelativePath": "api/Reviews/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "review",
-        "Type": "WebApplication2.Entities.Review",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApplication2.Controllers.ReviewsController",
     "Method": "Delete",
     "RelativePath": "api/Reviews/{id}",
     "HttpMethod": "DELETE",
@@ -455,6 +521,22 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2.Controllers.ReviewsController",
+    "Method": "GetByOrderId",
+    "RelativePath": "api/Reviews/by-order/{orderId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
         "Type": "System.Int32",
         "IsRequired": true
       }

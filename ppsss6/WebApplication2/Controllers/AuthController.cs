@@ -36,6 +36,25 @@ public class AuthController : ControllerBase
     {
         try
         {
+            // Добавленная валидация
+            if (string.IsNullOrWhiteSpace(request.Email))
+                return BadRequest(new { Message = "Email обязателен." });
+
+            if (!new EmailAddressAttribute().IsValid(request.Email))
+                return BadRequest(new { Message = "Некорректный формат email." });
+
+            if (string.IsNullOrWhiteSpace(request.Password) || request.Password.Length < 6)
+                return BadRequest(new { Message = "Пароль должен содержать минимум 6 символов." });
+
+            if (string.IsNullOrWhiteSpace(request.FirstName))
+                return BadRequest(new { Message = "Имя обязательно." });
+
+            if (string.IsNullOrWhiteSpace(request.LastName))
+                return BadRequest(new { Message = "Фамилия обязательна." });
+
+            if (string.IsNullOrWhiteSpace(request.Phone))
+                return BadRequest(new { Message = "Телефон обязателен." });
+
             if (!ModelState.IsValid)
             {
                 return BadRequest(new { Message = "Некорректные данные.", Errors = ModelState.Values.SelectMany(v => v.Errors) });
@@ -72,6 +91,13 @@ public class AuthController : ControllerBase
     {
         try
         {
+            // Добавленная валидация
+            if (string.IsNullOrWhiteSpace(request.Email))
+                return BadRequest(new { Message = "Email обязателен." });
+
+            if (string.IsNullOrWhiteSpace(request.Password))
+                return BadRequest(new { Message = "Пароль обязателен." });
+
             if (!ModelState.IsValid)
             {
                 return BadRequest(new { Message = "Некорректные данные.", Errors = ModelState.Values.SelectMany(v => v.Errors) });
@@ -149,17 +175,23 @@ public class AuthController : ControllerBase
 
     // Проверка текущего пароля.
     [HttpPost("verify-password")]
-    [Authorize] 
+    [Authorize]
     public async Task<IActionResult> VerifyPassword(VerifyPasswordRequest request)
     {
         try
         {
+            if (string.IsNullOrWhiteSpace(request.CurrentPassword))
+                return BadRequest(new { Message = "Текущий пароль обязателен." });
+
             if (!ModelState.IsValid)
             {
                 return BadRequest(new { Message = "Некорректные данные.", Errors = ModelState.Values.SelectMany(v => v.Errors) });
             }
 
             var userId = Convert.ToInt32(User.FindFirst(ClaimTypes.NameIdentifier)?.Value);
+            if (userId == 0)
+                return Unauthorized(new { Message = "Пользователь не авторизован." });
+
             var user = await _userRepository.GetByIdAsync(userId);
 
             if (user == null)
@@ -170,7 +202,7 @@ public class AuthController : ControllerBase
             var isCorrectOldPassword = _jwtService.VerifyPassword(request.CurrentPassword, user.Password);
             if (!isCorrectOldPassword)
             {
-                return BadRequest("Неправильный старый пароль!");
+                return BadRequest(new { Message = "Неправильный старый пароль!" });
             }
 
             return Ok(new { IsPasswordValid = isCorrectOldPassword });

@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:CarRentalApp.Converters"
              x:Class="CarRentalApp.Views.CalculateCostPage"
              Title="Расчет стоимости"
              BackgroundColor="#4E586E">
+
+    <ContentPage.Resources>
+        <converters:NullToBoolConverter x:Key="NullToBoolConverter" />
+    </ContentPage.Resources>
 
     <ScrollView>
         <StackLayout Padding="20">
@@ -28,6 +32,27 @@
                     <Label Text="Дата окончания аренды" TextColor="#FFFFFF" Margin="0, 10, 0, 0" />
                     <DatePicker Date="{Binding EndDate}" TextColor="#FFFFFF" />
                     <TimePicker Time="{Binding EndTime}" TextColor="#FFFFFF" Margin="0, 10, 0, 0" />
+
+                    <Label Text="Выберите водителя" TextColor="#FFFFFF" Margin="0, 10, 0, 0" />
+                    <Picker Title="Выберите водителя"
+                            ItemsSource="{Binding AvailableDrivers}"
+                            ItemDisplayBinding="{Binding FullName}"
+                            SelectedItem="{Binding SelectedDriver}"
+                            TextColor="#FFFFFF"
+                            TitleColor="#FFFFFF" />
+
+                    <StackLayout IsVisible="{Binding SelectedDriver, Converter={StaticResource NullToBoolConverter}}"
+                                 Margin="0,10">
+                        <Label Text="Выбранный водитель:" 
+                               FontAttributes="Bold"
+                               TextColor="#FFFFFF" />
+                        <Label Text="{Binding SelectedDriver.FullName}" 
+                               TextColor="#FFFFFF" />
+                        <Label Text="{Binding SelectedDriver.Phone}" 
+                               TextColor="#FFFFFF" />
+                        <Label Text="{Binding SelectedDriver.LicenseNumber, StringFormat='Лицензия: {0}'}" 
+                               TextColor="#FFFFFF" />
+                    </StackLayout>
 
                     <Button Text="Рассчитать стоимость" 
                             Clicked="OnCalculateCostClicked" 

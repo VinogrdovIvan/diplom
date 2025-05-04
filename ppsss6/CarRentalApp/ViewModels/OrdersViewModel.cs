@@ -4,14 +4,16 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
+using CarRentalApp.Views;
 
 namespace CarRentalApp.ViewModels
 {
     public class OrdersViewModel : INotifyPropertyChanged
     {
         private readonly IOrderService _orderService;
-
         private ObservableCollection<OrderResponse> _orders = new ObservableCollection<OrderResponse>();
+        private bool _isBusy;
+
         public ObservableCollection<OrderResponse> Orders
         {
             get => _orders;
@@ -22,7 +24,6 @@ namespace CarRentalApp.ViewModels
             }
         }
 
-        private bool _isBusy;
         public bool IsBusy
         {
             get => _isBusy;
@@ -36,6 +37,7 @@ namespace CarRentalApp.ViewModels
         public ICommand LoadOrdersCommand { get; }
         public ICommand RefreshCommand { get; }
         public ICommand CancelOrderCommand { get; }
+        public ICommand NavigateToReviewCommand { get; }
 
         public OrdersViewModel(IOrderService orderService)
         {
@@ -44,6 +46,24 @@ namespace CarRentalApp.ViewModels
             LoadOrdersCommand = new Command(async () => await LoadOrdersAsync());
             RefreshCommand = new Command(async () => await RefreshOrdersAsync());
             CancelOrderCommand = new Command<int>(async (orderId) => await CancelOrderAsync(orderId));
+            NavigateToReviewCommand = new Command<int>(async (orderId) =>
+            {
+                try
+                {
+                    var navigationParams = new Dictionary<string, object>
+                    {
+                        { "orderId", orderId }
+                    };
+
+                    await Shell.Current.GoToAsync(
+                        state: new ShellNavigationState("//ReviewPage"),
+                        parameters: navigationParams);
+                }
+                catch (Exception ex)
+                {
+                    await Shell.Current.DisplayAlert("Ошибка", $"Не удалось перейти: {ex.Message}", "OK");
+                }
+            });
         }
 
         public async Task LoadOrdersAsync()
@@ -73,7 +93,7 @@ namespace CarRentalApp.ViewModels
             try
             {
                 IsBusy = true;
-                await Task.Delay(500); 
+                await Task.Delay(500);
                 await LoadOrdersAsync();
             }
             catch (Exception ex)

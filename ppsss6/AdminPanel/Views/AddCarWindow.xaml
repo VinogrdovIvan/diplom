@@ -1,55 +1,50 @@
 ﻿<Window x:Class="AdminPanel.Views.AddCarWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Добавить автомобиль" 
-        Height="580" 
+        Height="500" 
         Width="400"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterOwner">
 
-    <Border Background="{StaticResource AccentBrush}"
-            CornerRadius="10"
-            Padding="20"
-            Margin="10">
-        <StackPanel>
-            <TextBlock Text="Добавить автомобиль" 
-                       FontSize="18"
-                       FontWeight="Bold"
-                       HorizontalAlignment="Center"
-                       Margin="0,0,0,20"/>
+    <Grid Background="{StaticResource PrimaryDarkBrush}">
+        <Border Background="White"
+                CornerRadius="10"
+                Padding="20"
+                Margin="20">
+            <StackPanel>
+                <TextBlock Text="Добавить автомобиль" 
+                           FontSize="18"
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,20"/>
 
-            <TextBlock Text="Марка"/>
-            <TextBox Text="{Binding Brand}"/>
+                <TextBlock Text="Марка" Foreground="{StaticResource DarkTextBrush}"/>
+                <TextBox Text="{Binding Brand}"/>
 
-            <TextBlock Text="Модель"/>
-            <TextBox Text="{Binding Model}"/>
+                <TextBlock Text="Модель" Foreground="{StaticResource DarkTextBrush}"/>
+                <TextBox Text="{Binding Model}"/>
 
-            <TextBlock Text="Год выпуска"/>
-            <TextBox Text="{Binding Year}"/>
+                <TextBlock Text="Год выпуска" Foreground="{StaticResource DarkTextBrush}"/>
+                <TextBox Text="{Binding Year}"/>
 
-            <TextBlock Text="Цвет"/>
-            <TextBox Text="{Binding Color}"/>
+                <TextBlock Text="Цвет" Foreground="{StaticResource DarkTextBrush}"/>
+                <TextBox Text="{Binding Color}"/>
 
-            <TextBlock Text="Номерной знак"/>
-            <TextBox Text="{Binding LicensePlate}"/>
+                <TextBlock Text="Номерной знак" Foreground="{StaticResource DarkTextBrush}"/>
+                <TextBox Text="{Binding LicensePlate}"/>
 
-            <TextBlock Text="Стоимость аренды (в час)"/>
-            <TextBox Text="{Binding HourlyRate}"/>
+                <TextBlock Text="Стоимость аренды (в час)" Foreground="{StaticResource DarkTextBrush}"/>
+                <TextBox Text="{Binding HourlyRate}"/>
 
-            <CheckBox IsChecked="{Binding IsAvailable}" 
-                      Content="Доступен"
-                      Margin="0,10,0,20"/>
+                <CheckBox IsChecked="{Binding IsAvailable}" 
+                          Content="Доступен"
+                          Margin="0,10,0,20"/>
 
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button Content="Добавить" 
                         Command="{Binding AddCarCommand}"
-                        Width="120"/>
-
-                <Button Content="Отмена" 
-                        Command="{Binding CancelCommand}"
-                        Width="120"
-                        Margin="10,0,0,0"/>
+                        HorizontalAlignment="Center"
+                        Width="200"/>
             </StackPanel>
-        </StackPanel>
-    </Border>
+        </Border>
+    </Grid>
 </Window>

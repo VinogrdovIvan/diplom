@@ -1,0 +1,133 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:CarRentalApp.ViewModels"
+             xmlns:responses="clr-namespace:CarRental.Shared.Responses;assembly=CarRental.Shared"
+             xmlns:converters="clr-namespace:CarRentalApp.Converters"
+             x:Class="CarRentalApp.Views.ReviewPage"
+             x:DataType="vm:ReviewViewModel"
+             Title="Отзывы"
+             BackgroundColor="{StaticResource PrimaryDark}">
+
+    <ContentPage.Resources>
+        <converters:DateTimeToStringConverter x:Key="DateTimeConverter" />
+    </ContentPage.Resources>
+
+    <RefreshView IsRefreshing="{Binding IsBusy}"
+                 Command="{Binding LoadReviewsCommand}"
+                 RefreshColor="{StaticResource Accent}">
+        <ScrollView>
+            <StackLayout Padding="20">
+                <!-- Форма добавления отзыва -->
+                <Frame BackgroundColor="{StaticResource SecondaryDark}" 
+                       CornerRadius="15" 
+                       Padding="20"
+                       Margin="0,0,0,20">
+                    <StackLayout>
+                        <Label Text="Оставить отзыв" 
+                               FontSize="18" 
+                               TextColor="{StaticResource TextColor}" 
+                               HorizontalOptions="Center" />
+
+                        <!-- Поле для оценки -->
+                        <Label Text="Оценка (1-5)" 
+                               TextColor="{StaticResource TextColor}" 
+                               Margin="0,10,0,0"/>
+                        <Picker Title="Выберите оценку"
+                                ItemsSource="{Binding RatingOptions}"
+                                SelectedItem="{Binding Rating, Mode=TwoWay}"
+                                TextColor="{StaticResource TextColor}"
+                                TitleColor="{StaticResource LightGray}"/>
+
+                        <!-- Поле для комментария -->
+                        <Label Text="Комментарий" 
+                               TextColor="{StaticResource TextColor}" 
+                               Margin="0,10,0,0"/>
+                        <Editor Text="{Binding Comment, Mode=TwoWay}"
+                                HeightRequest="100"
+                                TextColor="{StaticResource TextColor}"
+                                PlaceholderColor="{StaticResource LightGray}"
+                                AutoSize="TextChanges"/>
+
+                        <!-- Кнопка отправки -->
+                        <Button Text="Отправить отзыв"
+                                Command="{Binding SubmitReviewCommand}"
+                                BackgroundColor="{StaticResource Accent}"
+                                TextColor="{StaticResource TextColor}"
+                                CornerRadius="10"
+                                Margin="0,20,0,0"
+                                IsEnabled="{Binding IsNotBusy}"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Список отзывов -->
+                <Label Text="Отзывы" 
+                       FontSize="18" 
+                       TextColor="{StaticResource TextColor}" 
+                       HorizontalOptions="Center" 
+                       Margin="0,0,0,10"/>
+
+                <CollectionView ItemsSource="{Binding Reviews}"
+                                SelectionMode="None"
+                                BackgroundColor="Transparent">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="responses:ReviewResponse">
+                            <Frame BackgroundColor="{StaticResource SecondaryDark}" 
+                                   CornerRadius="15" 
+                                   Padding="15"
+                                   Margin="0,0,0,10">
+                                <StackLayout>
+                                    <!-- Оценка -->
+                                    <StackLayout Orientation="Horizontal" Spacing="5">
+                                        <Label Text="Оценка:" 
+                                               FontSize="14"
+                                               TextColor="{StaticResource TextColor}"/>
+                                        <Label Text="{Binding Rating}"
+                                               FontSize="14"
+                                               FontAttributes="Bold"
+                                               TextColor="{StaticResource Accent}"/>
+                                        <Label Text="/5"
+                                               FontSize="14"
+                                               TextColor="{StaticResource TextColor}"/>
+                                    </StackLayout>
+
+                                    <!-- Комментарий -->
+                                    <Label Text="{Binding Comment}" 
+                                           FontSize="14"
+                                           TextColor="{StaticResource LightGray}"
+                                           Margin="0,5,0,0"/>
+
+                                    <!-- Дата -->
+                                    <Label Text="{Binding ReviewDate, Converter={StaticResource DateTimeConverter}}" 
+                                           FontSize="12"
+                                           TextColor="{StaticResource LightGray}"
+                                           Margin="0,5,0,0"/>
+
+                                    <!-- Кнопка удаления -->
+                                    <Button Text="Удалить"
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type vm:ReviewViewModel}}, Path=DeleteReviewCommand}"
+                                            CommandParameter="{Binding ReviewId}"
+                                            BackgroundColor="#FF5252"
+                                            TextColor="White"
+                                            CornerRadius="5"
+                                            Margin="0,10,0,0"/>
+                                </StackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+
+                    <CollectionView.EmptyView>
+                        <StackLayout Padding="20" HorizontalOptions="Center">
+                            <Label Text="Отзывов пока нет" 
+                                   FontSize="16"
+                                   TextColor="{StaticResource TextColor}"/>
+                            <Button Text="Оставить первый отзыв"
+                                    Command="{Binding SubmitReviewCommand}"
+                                    BackgroundColor="{StaticResource Accent}"
+                                    Margin="0,10"/>
+                        </StackLayout>
+                    </CollectionView.EmptyView>
+                </CollectionView>
+            </StackLayout>
+        </ScrollView>
+    </RefreshView>
+</ContentPage>

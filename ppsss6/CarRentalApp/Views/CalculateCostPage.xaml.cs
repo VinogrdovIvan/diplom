@@ -8,30 +8,38 @@ namespace CarRentalApp.Views
     {
         private readonly ICarService _carService;
         private readonly IOrderService _orderService;
+        private readonly IHttpClientFactory _httpClientFactory;
 
-        public CalculateCostPage(ICarService carService, IOrderService orderService)
+        public CalculateCostPage(ICarService carService, IOrderService orderService, IHttpClientFactory httpClientFactory)
         {
             InitializeComponent();
             _carService = carService;
             _orderService = orderService;
-            BindingContext = new CalculateCostViewModel(carService, orderService);
+            _httpClientFactory = httpClientFactory;
+            BindingContext = new CalculateCostViewModel(carService, orderService, httpClientFactory);
         }
 
         private async void OnCalculateCostClicked(object sender, EventArgs e)
         {
-            var viewModel = BindingContext as CalculateCostViewModel;
-            if (viewModel != null)
+            try
             {
-                await viewModel.CalculateCostAsync();
+                await (BindingContext as CalculateCostViewModel)?.CalculateCostAsync();
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ошибка", ex.Message, "OK");
             }
         }
 
         private async void OnBookClicked(object sender, EventArgs e)
         {
-            var viewModel = BindingContext as CalculateCostViewModel;
-            if (viewModel != null)
+            try
             {
-                await viewModel.CreateOrderAsync();
+                await (BindingContext as CalculateCostViewModel)?.CreateOrderAsync();
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ошибка", ex.Message, "OK");
             }
         }
     }

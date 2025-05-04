@@ -27,5 +27,7 @@ namespace AdminPanel
 
             new LoginWindow().Show();
         }
+
+
     }
 }

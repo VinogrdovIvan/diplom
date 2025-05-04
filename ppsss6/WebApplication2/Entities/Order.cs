@@ -11,7 +11,7 @@ public partial class Order
 
     public int CarId { get; set; }
 
-    public int? DriverId { get; set; }
+    public int DriverId { get; set; }
 
     public DateTime StartDate { get; set; }
 

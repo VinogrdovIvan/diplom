@@ -102,7 +102,7 @@ namespace WebApplication2.Migrations
                             CarId = 1,
                             Brand = "Toyota",
                             Color = "Black",
-                            HourlyRate = 25.50m,
+                            HourlyRate = 2500.50m,
                             IsAvailable = true,
                             LicensePlate = "ABC123",
                             Model = "Camry",
@@ -113,7 +113,7 @@ namespace WebApplication2.Migrations
                             CarId = 2,
                             Brand = "Honda",
                             Color = "White",
-                            HourlyRate = 23.75m,
+                            HourlyRate = 2300.75m,
                             IsAvailable = true,
                             LicensePlate = "XYZ789",
                             Model = "Accord",
@@ -124,7 +124,7 @@ namespace WebApplication2.Migrations
                             CarId = 3,
                             Brand = "Ford",
                             Color = "Blue",
-                            HourlyRate = 20.00m,
+                            HourlyRate = 2000.00m,
                             IsAvailable = true,
                             LicensePlate = "DEF456",
                             Model = "Focus",
@@ -226,7 +226,7 @@ namespace WebApplication2.Migrations
                         .HasColumnType("int")
                         .HasColumnName("car_id");
 
-                    b.Property<int?>("DriverId")
+                    b.Property<int>("DriverId")
                         .HasColumnType("int")
                         .HasColumnName("driver_id");
 
@@ -315,10 +315,11 @@ namespace WebApplication2.Migrations
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("ReviewId"));
 
                     b.Property<string>("Comment")
+                        .HasMaxLength(500)
                         .HasColumnType("text")
                         .HasColumnName("comment");
 
-                    b.Property<int?>("OrderId")
+                    b.Property<int>("OrderId")
                         .HasColumnType("int")
                         .HasColumnName("order_id");
 
@@ -326,7 +327,7 @@ namespace WebApplication2.Migrations
                         .HasColumnType("int")
                         .HasColumnName("rating");
 
-                    b.Property<DateTime?>("ReviewDate")
+                    b.Property<DateTime>("ReviewDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime")
                         .HasColumnName("review_date")
@@ -495,6 +496,8 @@ namespace WebApplication2.Migrations
                     b.HasOne("WebApplication2.Entities.Driver", "Driver")
                         .WithMany("Orders")
                         .HasForeignKey("DriverId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
                         .HasConstraintName("orders_ibfk_3");
 
                     b.HasOne("WebApplication2.Entities.User", "User")
@@ -526,6 +529,8 @@ namespace WebApplication2.Migrations
                     b.HasOne("WebApplication2.Entities.Order", "Order")
                         .WithMany("Reviews")
                         .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
                         .HasConstraintName("reviews_ibfk_1");
 
                     b.Navigation("Order");

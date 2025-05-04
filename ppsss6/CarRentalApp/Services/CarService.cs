@@ -42,7 +42,7 @@ namespace CarRentalApp.Services
             try
             {
                 var client = _httpClientFactory.CreateClient("Backend");
-                var response = await client.GetAsync($"api/Cars/{id}");
+                var response = await client.GetAsync($"api/Cars/{id}"); 
                 response.EnsureSuccessStatusCode();
                 return await response.Content.ReadFromJsonAsync<CarResponse>();
             }

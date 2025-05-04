@@ -31,4 +31,5 @@ public class UserRepository : Repository<User>, IUserRepository
             .Include(x => x.Role)
             .SingleOrDefaultAsync(u => u.Email == email);
     }
+
 }

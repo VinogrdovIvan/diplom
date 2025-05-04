@@ -1,5 +1,4 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace CarRental.Shared.Requests
 {
@@ -11,7 +10,8 @@ namespace CarRental.Shared.Requests
         [Required(ErrorMessage = "Идентификатор автомобиля обязателен.")]
         public int CarId { get; set; }
 
-        public int? DriverId { get; set; } 
+        [Required(ErrorMessage = "Идентификатор водителя обязателен.")]
+        public int DriverId { get; set; }
 
         [Required(ErrorMessage = "Дата начала аренды обязательна.")]
         public DateTime StartDate { get; set; }

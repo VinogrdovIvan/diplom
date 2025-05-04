@@ -10,8 +10,9 @@ namespace AdminPanel.Views
         public EditUserWindow(User user)
         {
             InitializeComponent();
-            this.DataContext = new EditUserViewModel(user);
+            DataContext = new EditUserViewModel(user);
         }
+
         private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
         {
             if (DataContext is EditUserViewModel vm)

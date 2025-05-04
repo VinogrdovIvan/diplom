@@ -52,6 +52,7 @@ namespace WebApplication2.DbContexts
                 entity.Property(e => e.Model).HasMaxLength(50).HasColumnName("model");
                 entity.Property(e => e.Year).HasColumnName("year");
 
+
                 entity.HasMany(d => d.Drivers)
                     .WithMany(p => p.Cars)
                     .UsingEntity<Dictionary<string, object>>(
@@ -76,6 +77,7 @@ namespace WebApplication2.DbContexts
                         });
             });
 
+
             modelBuilder.Entity<Car>().HasData(
                 new Car
                 {
@@ -85,7 +87,7 @@ namespace WebApplication2.DbContexts
                     Year = 2020,
                     Color = "Black",
                     LicensePlate = "ABC123",
-                    HourlyRate = 25.50m,
+                    HourlyRate = 2500.50m,
                     IsAvailable = true
                 },
                 new Car
@@ -96,7 +98,7 @@ namespace WebApplication2.DbContexts
                     Year = 2019,
                     Color = "White",
                     LicensePlate = "XYZ789",
-                    HourlyRate = 23.75m,
+                    HourlyRate = 2300.75m,
                     IsAvailable = true
                 },
                 new Car
@@ -107,7 +109,7 @@ namespace WebApplication2.DbContexts
                     Year = 2021,
                     Color = "Blue",
                     LicensePlate = "DEF456",
-                    HourlyRate = 20.00m,
+                    HourlyRate = 2000.00m,
                     IsAvailable = true
                 }
             );

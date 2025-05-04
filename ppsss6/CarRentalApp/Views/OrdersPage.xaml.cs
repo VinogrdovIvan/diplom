@@ -18,9 +18,38 @@ namespace CarRentalApp.Views
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            if (BindingContext is OrdersViewModel vm)
+
+            try
             {
-                await vm.LoadOrdersAsync();
+                if (BindingContext is OrdersViewModel vm)
+                {
+                    await vm.LoadOrdersAsync();
+                }
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ошибка", $"Не удалось загрузить заказы: {ex.Message}", "OK");
+            }
+        }
+
+        private async void OnReviewButtonClicked(object sender, EventArgs e)
+        {
+            if (sender is Button button && button.CommandParameter is int orderId)
+            {
+                await Shell.Current.GoToAsync($"ReviewPage?orderId={orderId}");
+            }
+        }
+
+        private async Task NavigateToReviewPage(int orderId)
+        {
+            try
+            {
+                if (orderId <= 0) return;
+                await Shell.Current.GoToAsync($"//ReviewPage?orderId={orderId}");
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ошибка", $"Navigation error: {ex.Message}", "OK");
             }
         }
     }

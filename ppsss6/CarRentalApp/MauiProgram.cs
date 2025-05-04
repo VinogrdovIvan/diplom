@@ -33,6 +33,7 @@ namespace CarRentalApp
             builder.Services.AddTransient<IAuthService, AuthService>();
             builder.Services.AddTransient<ICarService, CarService>();
             builder.Services.AddTransient<IOrderService, OrderService>();
+            builder.Services.AddTransient<IReviewService, ReviewService>();
 
             builder.Services.AddTransient<LoginViewModel>();
             builder.Services.AddTransient<RegisterViewModel>();
@@ -41,6 +42,7 @@ namespace CarRentalApp
             builder.Services.AddTransient<ProfileViewModel>();
             builder.Services.AddTransient<EditProfileViewModel>();
             builder.Services.AddTransient<CalculateCostViewModel>();
+            builder.Services.AddTransient<ReviewViewModel>();
 
             builder.Services.AddTransient<LoginPage>();
             builder.Services.AddTransient<RegisterPage>();
@@ -49,6 +51,9 @@ namespace CarRentalApp
             builder.Services.AddTransient<ProfilePage>();
             builder.Services.AddTransient<EditProfilePage>();
             builder.Services.AddTransient<CalculateCostPage>();
+            builder.Services.AddTransient<ReviewPage>();
+
+
 
             return builder.Build();
         }

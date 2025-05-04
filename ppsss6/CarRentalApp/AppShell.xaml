@@ -20,4 +20,5 @@
     <ShellContent Route="EditProfilePage" ContentTemplate="{DataTemplate local:EditProfilePage}" />
     <ShellContent Route="CalculateCostPage" ContentTemplate="{DataTemplate local:CalculateCostPage}" />
     <ShellContent Route="RegisterPage" ContentTemplate="{DataTemplate local:RegisterPage}" />
+    <ShellContent Route="ReviewPage" ContentTemplate="{DataTemplate local:ReviewPage}" />
 </Shell>

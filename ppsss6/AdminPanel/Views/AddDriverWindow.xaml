@@ -1,49 +1,44 @@
 ﻿<Window x:Class="AdminPanel.Views.AddDriverWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Добавить водителя" 
-        Height="450" 
+        Height="500" 
         Width="400"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterOwner">
 
-    <Border Background="{StaticResource AccentBrush}"
-            CornerRadius="10"
-            Padding="20"
-            Margin="10">
-        <StackPanel>
-            <TextBlock Text="Добавить водителя" 
-                       FontSize="18"
-                       FontWeight="Bold"
-                       HorizontalAlignment="Center"
-                       Margin="0,0,0,20"/>
+    <Grid Background="{StaticResource PrimaryDarkBrush}">
+        <Border Background="White"
+                CornerRadius="10"
+                Padding="20"
+                Margin="20">
+            <StackPanel>
+                <TextBlock Text="Добавить водителя" 
+                           FontSize="18"
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,20"/>
 
-            <TextBlock Text="Имя"/>
-            <TextBox Text="{Binding FirstName}"/>
+                <TextBlock Text="Имя" Foreground="{StaticResource DarkTextBrush}"/>
+                <TextBox Text="{Binding FirstName}"/>
 
-            <TextBlock Text="Фамилия"/>
-            <TextBox Text="{Binding LastName}"/>
+                <TextBlock Text="Фамилия" Foreground="{StaticResource DarkTextBrush}"/>
+                <TextBox Text="{Binding LastName}"/>
 
-            <TextBlock Text="Телефон"/>
-            <TextBox Text="{Binding Phone}"/>
+                <TextBlock Text="Телефон" Foreground="{StaticResource DarkTextBrush}"/>
+                <TextBox Text="{Binding Phone}"/>
 
-            <TextBlock Text="Номер лицензии"/>
-            <TextBox Text="{Binding LicenseNumber}"/>
+                <TextBlock Text="Номер лицензии" Foreground="{StaticResource DarkTextBrush}"/>
+                <TextBox Text="{Binding LicenseNumber}"/>
 
-            <CheckBox IsChecked="{Binding IsAvailable}" 
-                      Content="Доступен"
-                      Margin="0,10,0,20"/>
+                <CheckBox IsChecked="{Binding IsAvailable}" 
+                          Content="Доступен"
+                          Margin="0,10,0,20"/>
 
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button Content="Добавить" 
                         Command="{Binding AddDriverCommand}"
-                        Width="120"/>
-
-                <Button Content="Отмена" 
-                        Command="{Binding CancelCommand}"
-                        Width="120"
-                        Margin="10,0,0,0"/>
+                        HorizontalAlignment="Center"
+                        Width="200"/>
             </StackPanel>
-        </StackPanel>
-    </Border>
+        </Border>
+    </Grid>
 </Window>

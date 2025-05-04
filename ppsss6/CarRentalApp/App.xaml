@@ -10,6 +10,9 @@
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
             <local:InverseBooleanConverter x:Key="InverseBooleanConverter" />
+            <local:NullToBoolConverter x:Key="NullToBoolConverter" />
+            <local:DateTimeToStringConverter x:Key="DateTimeToStringConverter"/>
+            <local:StringToVisibilityConverter x:Key="StringToVisibilityConverter"/>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

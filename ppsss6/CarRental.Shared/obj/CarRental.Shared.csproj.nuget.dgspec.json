@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj": {}
+    "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj": {
+    "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj",
         "projectName": "CarRental.Shared",
-        "projectPath": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj",
+        "projectPath": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj",
         "packagesPath": "C:\\Users\\aamon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrr\\ppsss6\\CarRental.Shared\\obj\\",
+        "outputPath": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\CarRental.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
