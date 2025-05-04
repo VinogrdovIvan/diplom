@@ -15312,11 +15312,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\CarRentalApp\\CarRentalApp.csproj",
+      "projectUniqueName": "C:\\Users\\aamon\\Desktop\\diplom\\ppsss6\\CarRentalApp\\CarRentalApp.csproj",
       "projectName": "CarRentalApp",
-      "projectPath": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\CarRentalApp\\CarRentalApp.csproj",
+      "projectPath": "C:\\Users\\aamon\\Desktop\\diplom\\ppsss6\\CarRentalApp\\CarRentalApp.csproj",
       "packagesPath": "C:\\Users\\aamon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\CarRentalApp\\obj\\",
+      "outputPath": "C:\\Users\\aamon\\Desktop\\diplom\\ppsss6\\CarRentalApp\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -15339,8 +15339,8 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "projectReferences": {
-            "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj": {
-              "projectPath": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj"
+            "C:\\Users\\aamon\\Desktop\\diplom\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj": {
+              "projectPath": "C:\\Users\\aamon\\Desktop\\diplom\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj"
             }
           }
         }

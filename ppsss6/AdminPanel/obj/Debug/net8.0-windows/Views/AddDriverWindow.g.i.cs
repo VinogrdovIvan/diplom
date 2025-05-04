@@ -52,7 +52,7 @@ namespace AdminPanel.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AdminPanel;V1.0.0.0;component/views/adddriverwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/AdminPanel;component/views/adddriverwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\AddDriverWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

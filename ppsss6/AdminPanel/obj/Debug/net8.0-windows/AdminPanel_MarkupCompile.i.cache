@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\aamon\Desktop\vkrrrrrrrfdfd\ppsss6\AdminPanel\obj\Debug\net8.0-windows\
+C:\Users\aamon\Desktop\diplom\ppsss6\AdminPanel\obj\Debug\net8.0-windows\
 AdminPanel
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\aamon\Desktop\vkrrrrrrrfdfd\ppsss6\AdminPanel\App.xaml
+C:\Users\aamon\Desktop\diplom\ppsss6\AdminPanel\App.xaml
 112036162976
 
 411772832305
-209-2008185692
+2091577767384
 Views\AddCarWindow.xaml;Views\AddDriverWindow.xaml;Views\AddOrderWindow.xaml;Views\AddReviewWindow.xaml;Views\AddUserWindow.xaml;Views\EditCarWindow.xaml;Views\EditDriverWindow.xaml;Views\EditOrderWindow.xaml;Views\EditUserWindow.xaml;Views\LoginWindow.xaml;Views\MainWindow.xaml;
 
 False

@@ -5,6 +5,10 @@
       {
         "Path": "WebApplication2.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "..\\AdminPanel\\AdminPanel.csproj",
+        "Action": "Start"
       }
     ]
   }

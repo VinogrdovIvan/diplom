@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q05QOjSex2I=",
+  "dgSpecHash": "XSTIw2J52lg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\WebApplication2\\WebApplication2.csproj",
+  "projectFilePath": "C:\\Users\\aamon\\Desktop\\diplom\\ppsss6\\WebApplication2\\WebApplication2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aamon\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\aamon\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

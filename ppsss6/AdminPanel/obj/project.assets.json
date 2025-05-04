@@ -594,11 +594,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\AdminPanel\\AdminPanel.csproj",
+      "projectUniqueName": "C:\\Users\\aamon\\Desktop\\diplom\\ppsss6\\AdminPanel\\AdminPanel.csproj",
       "projectName": "AdminPanel",
-      "projectPath": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\AdminPanel\\AdminPanel.csproj",
+      "projectPath": "C:\\Users\\aamon\\Desktop\\diplom\\ppsss6\\AdminPanel\\AdminPanel.csproj",
       "packagesPath": "C:\\Users\\aamon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\AdminPanel\\obj\\",
+      "outputPath": "C:\\Users\\aamon\\Desktop\\diplom\\ppsss6\\AdminPanel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -620,8 +620,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj": {
-              "projectPath": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj"
+            "C:\\Users\\aamon\\Desktop\\diplom\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj": {
+              "projectPath": "C:\\Users\\aamon\\Desktop\\diplom\\ppsss6\\CarRental.Shared\\CarRental.Shared.csproj"
             }
           }
         }

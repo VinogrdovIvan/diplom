@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sLdpFiymqd8=",
+  "dgSpecHash": "zmMzKb99OzI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\AdminPanel\\AdminPanel.csproj",
+  "projectFilePath": "C:\\Users\\aamon\\Desktop\\diplom\\ppsss6\\AdminPanel\\AdminPanel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aamon\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
     "C:\\Users\\aamon\\.nuget\\packages\\microsoft.bcl.memory\\9.0.0\\microsoft.bcl.memory.9.0.0.nupkg.sha512",

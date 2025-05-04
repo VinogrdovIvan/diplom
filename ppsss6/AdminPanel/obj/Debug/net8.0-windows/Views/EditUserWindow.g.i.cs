@@ -52,7 +52,7 @@ namespace AdminPanel.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AdminPanel;V1.0.0.0;component/views/edituserwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/AdminPanel;component/views/edituserwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\EditUserWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

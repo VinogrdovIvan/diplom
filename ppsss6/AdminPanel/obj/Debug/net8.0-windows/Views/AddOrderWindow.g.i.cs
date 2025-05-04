@@ -53,7 +53,7 @@ namespace AdminPanel.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AdminPanel;V1.0.0.0;component/views/addorderwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/AdminPanel;component/views/addorderwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\AddOrderWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

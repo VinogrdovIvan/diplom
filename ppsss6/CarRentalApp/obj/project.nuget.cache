@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "78UTLnI5GdQ=",
+  "dgSpecHash": "6YDSycsXoOg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aamon\\Desktop\\vkrrrrrrrfdfd\\ppsss6\\CarRentalApp\\CarRentalApp.csproj",
+  "projectFilePath": "C:\\Users\\aamon\\Desktop\\diplom\\ppsss6\\CarRentalApp\\CarRentalApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aamon\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\aamon\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.2\\microsoft.extensions.configuration.9.0.2.nupkg.sha512",
